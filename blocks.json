@@ -533,7 +533,7 @@
     "textures": "cobblestone"
   },
   "wall_sign": {
-    "textures": "planks",
+    "textures": "sign",
     "sound": "wood"
   },
   "lever": {
@@ -1682,5 +1682,27 @@
       "west": "pumpkin_side",
       "east": "pumpkin_side"
     }
+  },
+  "bamboo": {
+    "textures": {
+      "up": "bamboo_leaf",
+      "down": "bamboo_sapling",
+      "north": "bamboo_stem",
+      "south": "bamboo_small_leaf",
+      "east": "bamboo_singleleaf",
+      "west": "bamboo_stem"
+    },
+    "carried_textures": "bamboo_carried",
+    "sound": "bamboo"
+  },
+  "bamboo_sapling": {
+    "textures": "bamboo_sapling",
+    "carried_textures": "bamboo_carried",
+    "sound": "bamboo_sapling"
+  },
+  "scaffolding": {
+    "textures": "scaffolding",
+    "isotropic": false,
+    "sound": "scaffolding"
   }
 }

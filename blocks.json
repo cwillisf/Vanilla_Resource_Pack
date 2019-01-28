@@ -1,7 +1,10 @@
 {
-  "format_version": [ 1, 1, 0 ],
-  "air": {
-  },
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "air": {},
   "stone": {
     "textures": "stone",
     "sound": "stone"
@@ -529,7 +532,7 @@
     },
     "sound": "metal"
   },
-  "stone_stairs": {
+  "stone_stairs": { // Note: Actually cobblestone stairs. See normal_stone_stairs for stone.
     "textures": "cobblestone"
   },
   "wall_sign": {
@@ -1349,6 +1352,38 @@
     },
     "sound": "stone"
   },
+  "double_stone_slab3": {
+    "textures": {
+      "up": "stone_slab_top_3",
+      "down": "stone_slab_bottom_3",
+      "side": "stone_slab_side_3"
+    },
+    "sound": "stone"
+  },
+  "stone_slab3": {
+    "textures": {
+      "up": "stone_slab_top_3",
+      "down": "stone_slab_bottom_3",
+      "side": "stone_slab_side_3"
+    },
+    "sound": "stone"
+  },
+  "double_stone_slab4": {
+    "textures": {
+      "up": "stone_slab_top_4",
+      "down": "stone_slab_bottom_4",
+      "side": "stone_slab_side_4"
+    },
+    "sound": "stone"
+  },
+  "stone_slab4": {
+    "textures": {
+      "up": "stone_slab_top_4",
+      "down": "stone_slab_bottom_4",
+      "side": "stone_slab_side_4"
+    },
+    "sound": "stone"
+  },
   "spruce_fence_gate": {
     "textures": "wood_spruce",
     "sound": "wood"
@@ -1701,8 +1736,217 @@
     "sound": "bamboo_sapling"
   },
   "scaffolding": {
-    "textures": "scaffolding",
+    "textures": {
+      "up": "scaffolding_top",
+      "down": "scaffolding_bottom",
+      "side": "scaffolding_side"
+    },
     "isotropic": false,
     "sound": "scaffolding"
+  },
+  "granite_stairs": {
+    "textures": "granite",
+    "sound": "stone"
+  },
+  "andesite_stairs": {
+    "textures": "andesite",
+    "sound": "stone"
+  },
+  "diorite_stairs": {
+    "textures": "diorite",
+    "sound": "stone"
+  },
+  "polished_granite_stairs": {
+    "textures": "polished_granite",
+    "sound": "stone"
+  },
+  "polished_andesite_stairs": {
+    "textures": "polished_andesite",
+    "sound": "stone"
+  },
+  "polished_diorite_stairs": {
+    "textures": "polished_diorite",
+    "sound": "stone"
+  },
+  "mossy_stone_brick_stairs": {
+    "textures": "mossy_stone_brick",
+    "sound": "stone"
+  },
+  "smooth_red_sandstone_stairs": {
+    "textures": "smooth_red_sandstone",
+    "sound": "stone"
+  },
+  "smooth_sandstone_stairs": {
+    "textures": "smooth_sandstone",
+    "sound": "stone"
+  },
+  "end_brick_stairs": {
+    "textures": "end_bricks",
+    "sound": "stone"
+  },
+  "mossy_cobblestone_stairs": {
+    "textures": "cobblestone_mossy",
+    "sound": "stone"
+  },
+  "normal_stone_stairs": { // Note: this is stone stairs; the other block named "stone_stairs" is cobblestone and was kept for resource pack back-compat
+    "textures": "stone",
+    "sound": "stone"
+  },
+  "smooth_stone": {
+    "textures": "smooth_stone",
+    "sound": "stone"
+  },
+  "red_nether_brick_stairs": {
+    "textures": "red_nether_brick",
+    "brightness_gamma": 0.80,
+    "sound": "stone"
+  },
+  "smooth_quartz_stairs": {
+    "textures": "quartz_block_top",
+    "sound": "stone"
+  },
+  "spruce_wall_sign": {
+    "textures": "spruce_sign",
+    "sound": "wood"
+  },
+  "spruce_standing_sign": {
+    "textures": "spruce_sign",
+    "sound": "wood"
+  },
+  "birch_wall_sign": {
+    "textures": "birch_sign",
+    "sound": "wood"
+  },
+  "birch_standing_sign": {
+    "textures": "birch_sign",
+    "sound": "wood"
+  },
+  "jungle_wall_sign": {
+    "textures": "jungle_sign",
+    "sound": "wood"
+  },
+  "jungle_standing_sign": {
+    "textures": "jungle_sign",
+    "sound": "wood"
+  },
+  "acacia_wall_sign": {
+    "textures": "acacia_sign",
+    "sound": "wood"
+  },
+  "acacia_standing_sign": {
+    "textures": "acacia_sign",
+    "sound": "wood"
+  },
+  "darkoak_wall_sign": {
+    "textures": "darkoak_sign",
+    "sound": "wood"
+  },
+  "darkoak_standing_sign": {
+    "textures": "darkoak_sign",
+    "sound": "wood"
+  },
+  "barrel": {
+    "textures": {
+      "up": "fishbarrel_side",
+      "down": "fishbarrel_side",
+      "north": "fishbarrel_top_lid",
+      "south": "fishbarrel_bottom",
+      "east": "fishbarrel_side",
+      "west": "fishbarrel_side"
+    },
+    "sound": "wood"
+  },
+  "smithing_table": {
+    "textures": {
+      "up": "smithing_table_top",
+      "down": "crafting_table_bottom",
+      "north": "smithing_table_side_a",
+      "south": "smithing_table_side_a",
+      "west": "smithing_table_side_b",
+      "east": "smithing_table_side_b"
+    },
+    "sound": "wood"
+  },
+  "smoker": {
+    "textures": {
+      "up": "smoker_top",
+      "down": "smoker_bottom",
+      "north": "smoker_front_off",
+      "south": "smoker_side",
+      "west": "smoker_side",
+      "east": "smoker_side"
+    },
+    "sound": "stone"
+  },
+  "blast_furnace": {
+    "textures": {
+      "up": "blast_furnace_top",
+      "down": "blast_furnace_top",
+      "north": "blast_furnace_front_off",
+      "south": "blast_furnace_side",
+      "west": "blast_furnace_side",
+      "east": "blast_furnace_side"
+    },
+    "sound": "stone"
+  },
+  "lantern": {
+    "textures": "lantern",
+    "carried_textures": "lantern_carried",
+    "sound": "metal"
+  },
+  "lava_cauldron": {
+    "textures": {
+      "up": "cauldron_top",
+      "down": "cauldron_bottom",
+      "north": "cauldron_side",
+      "south": "cauldron_inner",
+      "west": "cauldron_water",
+      "east": "still_lava"
+    }
+  },
+  "grindstone": {
+    "textures": {
+      "up": "grindstone_round",
+      "down": "grindstone_leg",
+      "north": "grindstone_pivot",
+      "south": "grindstone_side",
+      "east": "grindstone_side",
+      "west": "grindstone_side"
+    },
+    "sound": "stone"
+  },
+  "bell": {
+    "textures": {
+      "up": "bell_top",
+      "down": "bell_bottom",
+      "north": "bell_side",
+      "south": "bell_side",
+      "east": "dark_oak_planks",
+      "west": "stone"
+    },
+    "carried_textures": "bell_carried",
+    "sound": "metal"
+  },
+  "cartography_table": {
+    "textures": {
+      "up": "cartography_table_top",
+      "down": "cartography_table_bottom",
+      "north": "cartography_table_side3",
+      "south": "cartography_table_side1",
+      "west": "cartography_table_side2",
+      "east": "cartography_table_side3"
+    },
+    "sound": "wood"
+  },
+  "fletching_table": {
+    "textures": {
+      "up": "fletching_table_top",
+      "down": "birch_planks",
+      "north": "fletching_table_side1",
+      "south": "fletching_table_side1",
+      "east": "fletching_table_side2",
+      "west": "fletching_table_side2"
+    },
+    "sound": "wood"
   }
 }

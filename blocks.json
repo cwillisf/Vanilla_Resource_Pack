@@ -1892,10 +1892,21 @@
     "textures": {
       "up": "smoker_top",
       "down": "smoker_bottom",
-      "north": "smoker_front_off",
-      "south": "smoker_side",
+      "north": "smoker_side",
+      "south": "smoker_front_off",
       "west": "smoker_side",
       "east": "smoker_side"
+    },
+    "sound": "stone"
+  },
+  "lit_smoker": {
+    "textures": {
+      "up": "smoker_top",
+      "down": "smoker_bottom",
+      "north": "smoker_side",
+      "south": "smoker_side",
+      "west": "smoker_side",
+      "east": "smoker_front_on"
     },
     "sound": "stone"
   },
@@ -1903,17 +1914,28 @@
     "textures": {
       "up": "blast_furnace_top",
       "down": "blast_furnace_top",
-      "north": "blast_furnace_front_off",
-      "south": "blast_furnace_side",
+      "north": "blast_furnace_side",
+      "south": "blast_furnace_front_off",
       "west": "blast_furnace_side",
       "east": "blast_furnace_side"
+    },
+    "sound": "stone"
+  },
+  "lit_blast_furnace": {
+    "textures": {
+      "up": "blast_furnace_top",
+      "down": "blast_furnace_top",
+      "north": "blast_furnace_side",
+      "south": "blast_furnace_side",
+      "west": "blast_furnace_side",
+      "east": "blast_furnace_front_on"
     },
     "sound": "stone"
   },
   "lantern": {
     "textures": "lantern",
     "carried_textures": "lantern_carried",
-    "sound": "metal"
+    "sound": "lantern"
   },
   "lava_cauldron": {
     "textures": {
@@ -1973,11 +1995,8 @@
   "campfire": {
     "textures": {
       "up": "campfire_fire",
-      "down": "campfire_top_on",
-      "north": "campfire_side",
-      "south": "campfire_top",
-      "east": "campfire_side",
-      "west": "campfire_side"
+      "down": "campfire_log",
+      "side": "campfire_log_lit"
     },
     "sound": "wood"
   },
@@ -2017,7 +2036,7 @@
       "east": "sweet_berry_bush_3"
     },
     "carried_textures": "sweet_berry_bush_carried",
-    "sound": "grass"
+    "sound": "sweet_berry_bush"
   },
   "composter": {
     "textures": {

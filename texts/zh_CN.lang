@@ -5,6 +5,164 @@
 accessibility.disableTTS=文本转语音已禁用	#
 accessibility.enableTTS=文本转语音已启用	#
 
+## Translator note:
+## This section of phrases will be given audibly to the user using text to speech
+
+accessibility.chat.tts.says=%s 说 %s	#
+accessibility.chat.tts.hideChat=隐藏聊天	#
+accessibility.chat.tts.keyboard=键盘	#
+accessibility.chat.tts.muteChatToggle=全部静音	#
+accessibility.chat.tts.sendChatMessage=发送	#
+accessibility.chat.tts.textboxTitle=聊天	#
+
+accessibility.loading.done=完成	#
+accessibility.saving.done=完成	#
+accessibility.downloading.start=下载已开始	#
+accessibility.downloading.Progress=正在下载 %s%	#
+accessibility.downloading.canceled=下载已取消	#
+accessibility.downloading.complete=下载完成	#
+accessibility.importing.start=导入已开始	#
+accessibility.importing.Progress=正在导入 %s%	#
+accessibility.importing.canceled=导入已取消	#
+accessibility.importing.complete=导入完成	#
+accessibility.signin.xbl=正在登录至 Xbox Live	#
+accessibility.chat.howtoopen=按 %s 打开聊天	#
+accessibility.key.mouseButton=鼠标按钮 %s	#
+accessibility.key.gamepad=控制器 %s	#
+accessibility.list.or.two=%s 或 %	#
+accessibility.list.or.three_or_more.first=%s	#
+accessibility.list.or.three_or_more.inner=，%s	#
+accessibility.list.or.three_or_more.last=，或 %s	#
+
+accessibility.button.tts.title=按钮	#
+accessibility.checkbox.tts.title=复选框	#
+accessibility.checkbox.tts.status=状态 %s			### Status will be checked or unchecked
+accessibility.dropdown.tts.title=下拉	#
+accessibility.slider.tts.title=滑块	#
+accessibility.tab.tts.title=标签	#
+accessibility.textbox.tts.title=文本框	#
+accessibility.toggle.tts.title=切换	#
+
+accessibility.button.close=关闭	#
+accessibility.button.back=返回	#
+accessibility.button.exit=退出	#
+
+accessibility.dropdown.listItem=List item	#
+
+accessibility.sectionName=第 %s 部分：	#
+
+accessibility.state.on=：打开	#
+accessibility.state.off=：关闭	#
+
+accessibility.state.checked=：选中	#
+accessibility.state.unchecked=：取消选中	#
+
+accessibility.state.selected=: selected	#
+accessibility.state.unselected=: unselected	#
+
+accessibility.slider.tts.percentValue=%s%	#
+
+accessibility.play.editWorld=编辑世界	#
+accessibility.play.editRealm=编辑 Realm	#
+accessibility.play.editServer=编辑服务器	#
+accessibility.play.importWorld=导入世界	#
+accessibility.play.leaveRealm=离开 Realm	#
+accessibility.play.realmFeed=Realm 内容	#
+accessibility.play.tabLeft=Press the %s to tab left	#
+accessibility.play.tabRight=Press the %s to tab right	#
+
+accessibility.pause.permissions=Permissions	#
+
+accessibility.screenName.achievements=Achievements Screen	#
+accessibility.screenName.chat=Chat Screen	#
+accessibility.screenName.createNew=Create New Screen	#
+accessibility.screenName.createWorld=Create World Settings Screen	#
+accessibility.screenName.editWorldSettings=Edit World Settings Screen	#
+accessibility.screenName.error=Error Screen	#
+accessibility.screenName.howToPlay=How To Play Screen	#
+accessibility.screenName.modalDialog=Popup dialog	#
+accessibility.screenName.patchNotes=Patch Notes Screen	#
+accessibility.screenName.pauase=Pause Screen	#
+accessibility.screenName.play=Play Screen	#
+accessibility.screenName.realmSettings=Realm Settings Screen	#
+accessibility.screenName.settings=Game Settings Screen	#
+accessibility.screenName.skinPicker=Choose Skin Screen	#
+accessibility.screenName.start=Main Menu	#
+accessibility.screenName.vrAlignment=VR 对齐屏幕 	#
+
+accessibility.settings.reset=重置	#
+accessibility.settings.chooseSeed=选择种子	#
+
+accessibility.start.feedback=提交反馈	#
+accessibility.start.new=New	#
+accessibility.start.skinPicker=选择皮肤	#
+
+accessibility.store.tag=Tag	#
+
+accessibility.textbox.editing=Editing	#
+
+accessibility.text.leftParenthesis=左圆括号	#
+accessibility.text.rightParenthesis=右圆括号	#
+accessibility.text.period=句号	#
+accessibility.text.comma=逗号	#
+accessibility.text.colon=冒号	#
+accessibility.text.apostrophe=撇号	#
+accessibility.text.exclamationPoint=感叹号	#
+accessibility.text.semiColon=分号	#
+accessibility.text.hyphen=连字符	#
+accessibility.text.questionMark=问号	#
+accessibility.text.quotationMark=引号	#
+accessibility.text.space=空格	#
+accessibility.text.tilde=波浪号	#
+accessibility.text.graves=重音符	#
+accessibility.text.lessThan=小于号	#
+accessibility.text.greaterThan=大于号	#
+accessibility.text.leftBrace=左花括号	#
+accessibility.text.rightBrace=右花括号	#
+
+accessibility.toast=通知		### This is the name of the popup that appears when a player gets a notification for a game invite or achievement unlocked
+
+accessibility.worldTemplates.help=帮助	#
+
+accessibility.popup.title=关闭屏幕阅读器？	#
+accessibility.popup.message.line1=欢迎来到《我的世界》！	#
+accessibility.popup.message.default=您的设备上默认启用了屏幕阅读器支持。	#
+accessibility.popup.message.platform=我们发现您的系统启用了一个屏幕阅读器，并且自动启用了《我的世界》的屏幕阅读器。	#
+accessibility.popup.message.touch=触摸和拖动以在屏幕上找到控件，双击控件以进行选择。若要在屏幕上滚动，上下滑动时双击并按住即可。	#
+accessibility.popup.message.xbl=我们发现您的账户已经启用了“让游戏读给我听”，并且自动启用了《我的世界》的屏幕阅读器。	#
+accessibility.popup.message.line3=您想将它关掉吗？	#
+accessibility.popup.left_button_text=关闭	#
+accessibility.popup.right_button_text=保持打开	#
+
+accessibility.controllerLayoutScreen.buttonRemapped=%s 已被绑定至 %s	#
+accessibility.controllerLayoutScreen.buttonBoundTo=%s button: %s	#
+accessibility.controllerLayoutScreen.buttonRemapping=为 %s 选择要绑定的输入	#
+
+accessibility.gamepad.faceButton.down=A 键	#
+accessibility.gamepad.faceButton.right=B 键	#
+accessibility.gamepad.faceButton.left=X 键	#
+accessibility.gamepad.faceButton.up=Y 键	#
+accessibility.gamepad.button.systemLeft=查看键	#
+accessibility.gamepad.button.systemRight=菜单键	#
+accessibility.gamepad.dpad.down=方向键下	#
+accessibility.gamepad.dpad.up=方向键上	#
+accessibility.gamepad.dpad.left=方向键左	#
+accessibility.gamepad.dpad.right=方向键右	#
+accessibility.gamepad.stick.left=左摇杆	#
+accessibility.gamepad.stick.right=右摇杆	#
+accessibility.gamepad.trigger.right=右扳机	#
+accessibility.gamepad.trigger.left=左扳机	#
+accessibility.gamepad.bumper.right=右杆	#
+accessibility.gamepad.bumper.left=左杆	#
+
+accessibility.keyboard.leftBracket=左方框键			### left square bracket means '[' on the english keyboard
+accessibility.keyboard.rightBracket=右方框键		### right square bracket means ']' on the english keyboard
+
+accessibility.keyboard.leftBracket=左方框键			### left square bracket means '[' on the english keyboard
+accessibility.keyboard.rightBracket=右方框键		### right square bracket means ']' on the english keyboard
+
+## End of audible phrases section
+
 achievement.alternativeFuel=替代性燃料	#
 achievement.alternativeFuel.desc=用一个海带区块给熔炉供能	#
 achievement.acquireIron=来硬的	#
@@ -637,6 +795,21 @@ commands.mixer.status.initializing=交互性正在初始化。	#
 commands.mixer.status.pending=交互性正在等待中。	#
 commands.mixer.status.disabled=交互性已禁用。	#
 commands.mixer.activatedbutton=%1$s 已激活 %2$s。	#
+
+commands.mobevent.description=会控制允许哪些生物事件运行。	#
+commands.mobevent.eventsEnabledSetToTrue=生物事件已启用。设置为 "false" 的单独事件将不会运行。	#
+commands.mobevent.eventsEnabledSetToFalse=生物事件已禁用。单独事件将不会运行。	#
+commands.mobevent.eventsEnabledIsTrue=生物事件已启用。设置为 "false" 的单独事件将不会运行。	#
+commands.mobevent.eventsEnabledIsFalse=生物事件已启用。设置为 "false" 的单独事件将不会运行。	#
+
+## for the following new loc strings, the first parameter is a localized event name, and the second is the literal event that must be entered into the command.
+commands.mobevent.eventSetToTrue=生物事件%s (id:%s) 设置为 "true"。	#
+commands.mobevent.eventSetToTrueButEventsDisabled=生物事件%s (id:%s) 设置为 "true"，但是生物事件已禁用。	#
+commands.mobevent.eventSetToFalse=生物事件%s (id:%s) 设置为 "false"。	#
+commands.mobevent.eventIsTrue=生物事件%s (id:%s) 设置为 "true"。	#
+commands.mobevent.eventIsTrueButEventsDisabled=生物事件%s (id:%s) 设置为 "true"，但是生物事件已禁用。	#
+commands.mobevent.eventIsFalse=生物事件%s (id:%s) 设置为 "false"。	#
+
 commands.op.description=授予一名玩家操作员状态。	#
 commands.op.failed=无法夺得权限（已夺得或具有更高权限）：%s	#
 commands.op.success=已将 %s 设为管理员	#
@@ -930,6 +1103,10 @@ commands.whitelist.list=现在白名单中有 %1$d 个 ( 于可见的 %2$d 人�
 commands.whitelist.reloaded=已从文件重新读取白名单。	#
 commands.whitelist.remove.failed=无法从白名单中移除 %1$s	#
 commands.whitelist.remove.success=已将 %1$s 移出白名单	#
+commands.world_age.description=改变或查询世界的年龄（自创建以来的时间）。	#
+commands.world_age.added=该世界的年龄增加 %1$d	#
+commands.world_age.query=世界年龄为 %d	#
+commands.world_age.set=将世界年龄设置为 %1$d	#
 commands.worldborder.center.success=将世界边界的中心设置为 %1$s,%2$s	#
 commands.worldborder.damage.amount.success=将世界边界伤害设置为每方块 %1$s（原为每方块 %2$s）	#
 commands.worldborder.damage.buffer.success=将世界边界伤害缓存设为 %1$s 个方块（原为 %2$s 个方块）	#
@@ -986,10 +1163,12 @@ container.minecart=矿车	#
 container.repair=物品修复和命名	#
 container.repair.cost=经验值花费：%1$d	#
 container.repair.expensive=过于昂贵！	#
+container.repairAndDisenchant=修复与祛魔	#
 container.stonecutter=切石机	#
 container.stonecutter_block=切石机	#
 container.shulkerbox=潜匿之贝箱子	#
 container.shulkerboxContains=还有 %d 个...	#
+container.barrel=木桶	#
 
 controller.buttonTip.addItem=添加物品	#
 controller.buttonTip.addItemStack=添加物品堆叠	#
@@ -1350,8 +1529,12 @@ realmsCreateScreen.createFailed.title=出错了	#
 realmsCreateScreen.createFailed.content=购买成功，但现在无法创建您的领域。我们会尽快创建您的领域。请稍后在此设备上查看。	#
 realmsCreateScreen.createFailed.profanity=不允许领域名称 %s。	#
 realmsCreateScreen.createFailed.generic=无法验证俱乐部名称。请稍后重试。	#
-realmsCreateScreen.maxRealms.title=已达到最大领域数	#
-realmsCreateScreen.maxRealms.content=你已拥有最大有效领域数目，现在无法创建新领域。	#
+realmsCreateScreen.maxRealms.title=最大订阅数	#
+realmsCreateScreen.maxRealms.content=您在该平台上已达到最大活跃订阅数，现在无法创建新的订阅。	#
+realmsCreateScreen.offerNotFound.title=未找到产品	#
+realmsCreateScreen.offerNotFound.content=请稍后重试	#
+realmsCreateScreen.offerNotAvailable.title=产品不可购买	#
+realmsCreateScreen.offerNotAvailable.content=请稍后重试	#
 realmsCreateScreen.extendRealms.title=领域订阅已满	#
 realmsCreateScreen.extendRealms.content=你已经尽可能延长你的领域订阅，现在无法增加额外时间。请稍后再试。	#
 realmsCreateScreen.usersTwo=2 名玩家	#
@@ -1781,6 +1964,9 @@ storageSpaceWarningScreen.frontend=您的存储空间即将不足！《我的世
 storageSpaceWarningScreen.lowduringgameplay=您的设备空间不足，《我的世界》无法在此设备上存储世界和设置。为什么不删除一些您不需要的旧东西，便于您保存新内容？	#
 storageSpaceWarningScreen.fullduringgameplay=您的存储空间不足，《我的世界》无法保存您的进度！ 《我的世界》 将帮助您回到主菜单，以清理出额外的存储空间。	#
 
+effect.badOmen=凶兆	#
+effect.villageHero=村庄英雄	#
+
 enchantment.arrowDamage=力量	#
 enchantment.arrowFire=火矢	#
 enchantment.arrowInfinite=无限	#
@@ -1868,7 +2054,7 @@ entity.ghast.name=恶魂	#
 entity.guardian.name=守卫者	#
 entity.horse.name=马	#
 entity.husk.name=尸傀	#
-entity.illager_beast.name=乡村野兽	#
+entity.ravager.name=掠夺兽	#
 entity.iron_golem.name=铁傀儡	#
 entity.item.name=物品	#
 entity.leash_knot.name=拴绳结	#
@@ -2132,6 +2318,13 @@ gui.playOffline=离线游戏	#
 gui.signIn=登录	#
 gui.genericNetworkError=出错了。尝试检查您的互联网连接。	#
 
+updateScreen.update=更新	#
+updateScreen.title=版本已过期	#
+updateScreen.body=更新到最新版本，以访问所有的新功能、与好友在线玩，或者看看商店里有什么新东西。	#
+updateScreen.commerceNotSupported.title=无法访问市场	#
+updateScreen.commerceNotSupported.body=该版本的《我的世界》无法再访问《我的世界》市场。更新至最新版本以恢复市场访问。	#
+updateScreen.patchVersion=%s 版补丁说明：	#
+
 hostOption.codeBuilder=代码生成器	#
 hostOption.setWorldSpawn=设置世界出生点	#
 hostOption.teleport=传送	#
@@ -2186,9 +2379,9 @@ howtoplay.armor.text.3=通过打开您的物品栏并将盔甲碎片移动到玩
 howtoplay.armor.text.4=铁质盔甲、链甲和黄金盔甲可以在熔炉中熔化成铁粒或金粒。	#
 howtoplay.armor.header.2=护盾	#
 howtoplay.armor.text.5.keyboard=护盾可以格挡来袭的伤害。护盾可以装备在便捷槽位以及热键中。按下并长按 :_input_key.sneak: 以使用护盾进行格挡。	#
-howtoplay.armor.text.5.gamepad=护盾可以格挡来袭的伤害。护盾可以装备在便捷槽位以及热键中。按下 :_input_key.sneak: 按钮或点击 :_gamepad_stick_right: 可以切换成使用护盾进行格挡。	#
+howtoplay.armor.text.5.gamepad=护盾可以格挡来袭的伤害。护盾可以装备在便捷槽位以及热键中。按下:_input_key.sneak: 按钮或点击 :_gamepad_stick_right: 可以切换成使用护盾进行格挡。	#
 howtoplay.armor.text.5.touch=护盾可以格挡来袭的伤害。护盾可以装备在便捷槽位以及热键中。点击 :touch_sneak: 可以切换成使用护盾进行格挡。	#
-howtoplay.armor.text.5.rift_controller=护盾可以格挡来袭的伤害。护盾可以装备在便捷槽位以及热键中。按下 :_input_key.sneak: 按钮或点击 :rift_X: 可以切换成使用护盾进行格挡。	#
+howtoplay.armor.text.5.rift_controller=护盾可以格挡来袭的伤害。护盾可以装备在便捷槽位以及热键中。按下:_input_key.sneak: 按钮或点击 :rift_X: 可以切换成使用护盾进行格挡。	#
 howtoplay.armor.text.5.windowsmr_controller=护盾可以格挡来袭的伤害。护盾可以装备在便捷槽位以及热键中。按下:_input_key.sneak: 按钮或点击 :windowsmr_right_stick: 可以切换成使用护盾进行格挡。	#
 howtoplay.armor.text.6=护盾甚至可以格挡一次爬行者的爆炸！	#
 howtoplay.armor.header.3=伪装	#
@@ -2764,11 +2957,13 @@ howtoplay.navigation.header.1=导航工具	#
 howtoplay.navigation.text.3=指南针将指向您在世界中的第一个出生地的方向，此方法可让您轻松找到您的出发位置。	#
 howtoplay.navigation.text.4=地图使您能够查看已经探索过的区域。将其置于您的副手槽中并像使用小地图一样使用它。您可以通过在工作台上向地图边缘添加更多纸来扩大其尺寸。	#
 howtoplay.navigation.text.5=定位器地图将显示您的所在位置以及您相对于定位器地图原点的朝向。它也会向您显示同一个世界中其他玩家的位置。	#
+howtoplay.navigation.text.6=制图台可以帮助您创建、扩展、复制甚至命名地图。	#
+howtoplay.navigation.text.7=把纸放进第一个槽来合成地图。如果您在第二个槽中加入一个指南针，您可以合成一个定位器地图。添加纸或空白地图将允许您扩展或复制您的地图。	#
 howtoplay.navigation.header.2=导航技术	#
-howtoplay.navigation.text.6=请尽量在探索时留意地标。在一个世界中玩的时间越长，越容易记住您的位置。另一个非常好的诀窍是在移动时放置火把，这样您就可以找到回家的路了。	#
-howtoplay.navigation.text.7=太阳也能指示您的朝向。记住：太阳东升西落！	#
+howtoplay.navigation.text.8=请尽量在探索时留意地标。在一个世界中玩的时间越长，越容易记住您的位置。另一个非常好的诀窍是在移动时放置火把，这样您就可以找到回家的路了。	#
+howtoplay.navigation.text.9=太阳也能指示您的朝向。记住：太阳东升西落！	#
 howtoplay.navigation.header.3=探险者地图	#
-howtoplay.navigation.text.8=有许多地方可供您探索。找到村庄并寻找制图者。他会和您交易探险者地图，这些地图将带您前往非常遥远的陌生地域。	#
+howtoplay.navigation.text.10=有许多地方可供您探索。找到村庄并寻找制图者。他会和您交易探险者地图，这些地图将带您前往非常遥远的陌生地域。	#
 
 howtoplay.netherPortals=下界传送门	#
 howtoplay.netherPortals.title=游戏指南：下界传送门	#
@@ -2795,6 +2990,13 @@ howtoplay.pets.header.3=豹猫	#
 howtoplay.pets.text.3=豹猫是在丛林中狩猎的中立型生物。它们会攻击鸡并避开爬行者。它们会试着躲着您，因此驯服它们可能并非易事。它们喜欢吃鱼，所以给它们喂生鳕鱼或鲑鱼来驯服它们。	#
 howtoplay.pets.header.4=鹦鹉	#
 howtoplay.pets.text.4=鹦鹉也是居住在丛林中的被动型生物。它们会模仿所在区域中的任何其他生物。它们最喜欢的是种子，给它们喂一些种子来驯服它们。鹦鹉还会站在您的肩膀上...是的，您可以让多只鹦鹉站在您的肩膀上。	#
+
+howtoplay.raids=劫掠	#
+howtoplay.raids.title=游戏指南：劫掠	#
+howtoplay.raids.text.1=在探索世界的过程中，您可能会遇到劫掠者的营地或巡逻队。劫掠者总是在寻找村庄进行袭击，携带他们的旗帜会引起他们的注意，他们还可能会选择袭击附近的村庄。	#
+howtoplay.raids.text.2=一定要保卫您的村庄，如果您击败了所有的劫掠者，攻击就会停止。	#
+howtoplay.raids.header.1=英雄救我	#
+howtoplay.raids.text.3=村民们很可能会非常感激您把他们从劫掠者手中救了出来。一定要和他们确认一下，您可能会做成一笔好交易。	#
 
 howtoplay.ranching=牧场经营	#
 howtoplay.ranching.title=游戏指南：牧场经营	#
@@ -2840,7 +3042,7 @@ howtoplay.scaffolding.text.1.touch=脚手架可以帮助您安全地建造巨大
 howtoplay.scaffolding.text.1.rift_controller=脚手架可以帮助您安全地建造巨大的建筑！您可以在脚手架内部行走，也可以站在上面。如果您拥有一列脚手架，您可以通过站在脚手架内并按 :rift_A: 按钮来向上移动。如果您想向下移动，您可以按并按住 :rift_X: 按钮。	#
 howtoplay.scaffolding.text.1.windowsmr_controller=脚手架可以帮助您安全地建造巨大的建筑！您可以在脚手架内部行走，也可以站在上面。如果您拥有一列脚手架，您可以通过站在脚手架内并按 :windowsmr_right_touchpad: 按钮来向上进发。如果您想向下移动，您可以按并按住 :windowsmr_right_stick: 按钮。	#
 howtoplay.scaffolding.header.2=为您的建造提供支撑	#
-howtoplay.scaffolding.text.2=脚手架需要支撑。您只能在水平方向放置 4 个脚手架而不接触到不同的方块。当您试图在没有适当支撑的情况下放置第 5 个脚手架时，它会倒塌。脚手架可以像普通的方块一样进行放置，但它也可以被放置在自己的地基上，以便快速成为一座高塔。	#
+howtoplay.scaffolding.text.2=脚手架需要支撑。您只能在水平方向放置若干个脚手架而不接触到不同的方块。当您试图在没有适当支撑的情况下放置过多的脚手架时，它会倒塌。脚手架可以像普通的方块一样进行放置，但它也可以被放置在自己的地基上，以便快速建成一座高塔。	#
 howtoplay.scaffolding.header.3=快速打破	#
 howtoplay.scaffolding.text.3=当脚手架被破坏时，它也会破坏由它所支撑的每一个脚手架。这将让您能够通过破坏支撑方块来快速清理您的脚手架！	#
 
@@ -2893,10 +3095,11 @@ howtoplay.tools.text.12=剪刀非常适合收集羊毛、树叶和蜘蛛网等�
 
 howtoplay.trading=村民交易	#
 howtoplay.trading.title=游戏指南：村民交易	#
-howtoplay.trading.text.1=在村庄中可进行交易。每个村民都有一项职业，他们可能是农民、屠夫、铁匠、制图者、图书管理员或牧师。职业决定了他们可以交易的物品类型。	#
+howtoplay.trading.text.1=在村庄中可进行交易。每个村民都有一项职业，他们可能是农民、屠夫、铁匠、制图者、图书管理员或牧师。有些职业可以交易其他职业无法交易的物品。探索并与许多村民交易以找到所有的可进行交易。	#
 howtoplay.trading.header.1=用于换取绿宝石的商品	#
-howtoplay.trading.text.2=您可以在交易菜单中找到村民提出的所有交易列表。尽管过于频繁地使用某项交易可能导致其暂时被禁用，但村民可在每次玩家与其交易时修改或添加交易内容。	#
-howtoplay.trading.text.3=交易通常涉及买卖物品换取绿宝石。	#
+howtoplay.trading.text.2=您可以通过与村民互动来了解他们会提供什么来进行交易。村民可能会在与玩家交易时调整交易价格。村民可能会缺货，或者由于过于频繁地使用某项交易从而导致其暂时被禁用。交易通常涉及到绿宝石的买卖。	#
+howtoplay.trading.text.3=当您与村民进行交易时，他们的职业水平会提高，并开始提供更好、更有价值的交易。	#
+howtoplay.trading.text.4=照顾好您的村民，他们需要休息、工作和吃饭才能茁壮成长。	#
 
 howtoplay.transportation=交通运输	#
 howtoplay.transportation.title=游戏指南：交通运输	#
@@ -3244,6 +3447,7 @@ item.banner.half_vertical_right.red=红色右半方形	#
 item.banner.half_vertical_right.silver=淡灰色右半方形	#
 item.banner.half_vertical_right.white=白色右半方形	#
 item.banner.half_vertical_right.yellow=黄色右半方形	#
+item.banner.illager_captain.name=刌民旗帜	#
 item.banner.lightBlue.name=淡蓝色旗帜	#
 item.banner.lime.name=黄绿色旗帜	#
 item.banner.magenta.name=品红色旗帜	#
@@ -3880,7 +4084,7 @@ item.spawn_egg.entity.mooshroom.name=生成哞菇	#
 item.spawn_egg.entity.squid.name=生成鱿鱼	#
 item.spawn_egg.entity.rabbit.name=生成兔子	#
 item.spawn_egg.entity.bat.name=生成蝙蝠	#
-item.spawn_egg.entity.illager_beast.name=生成乡村野兽	#
+item.spawn_egg.entity.ravager.name=生成掠夺兽	#
 item.spawn_egg.entity.iron_golem.name=生成铁傀儡	#
 item.spawn_egg.entity.snow_golem.name=生成雪傀儡	#
 item.spawn_egg.entity.ocelot.name=生成豹猫	#
@@ -4356,6 +4560,7 @@ map.toolTip.displayMarkers=显示标记	#
 map.toolTip.scaling=缩放比例：1:%s	#
 map.toolTip.level=等级%s/%s	#
 map.toolTip.unkown=未知地图	#
+map.toolTip.locked=已锁定	#
 map.position.agent=Agent 位置：%s，%s，%s	#
 map.position=位置：%s, %s, %s	#
 
@@ -4406,6 +4611,7 @@ menu.makingBackup=制作备份中...	#
 menu.saving=保存中……	#
 
 merchant.deprecated=交易一些其他东西来解锁！	#
+
 
 mount.onboard=按下 %1$s 来脱离	#
 
@@ -4626,6 +4832,10 @@ options.dev_overrideDateMinute=分	#
 options.dev_overrideDayLength=替代日长度，以分钟为单位（分钟：1）	#
 options.dev_overrideTimeScale=时间流逝的刻度速度（最小：1，默认：1）	#
 options.dev_updateOverrideDate=更新替代日期	#
+options.dev_overrideVersionMajor=主要	#
+options.dev_overrideVersionMinor=次要	#
+options.dev_overrideVersionPatch=补丁	#
+options.dev_updateVersionOverride=更新客户端版本覆盖	#
 options.dev_resetOverrideDate=重置替代日期时间	#
 options.dev_clearStoreCache=清除商店缓存	#
 options.dev_clearAllCache=清除所有缓存	#
@@ -4653,6 +4863,7 @@ options.difficulty.normal=普通	#
 options.difficulty.peaceful=和平	#
 options.dpadscale=方向键大小	#
 options.enableChatTextToSpeech=启用聊天文本转语音	#
+options.enableUITextToSpeech=启用 UI 屏幕阅读器	#
 options.entityShadows=生物的影子	#
 options.editSettings=编辑设置	#
 options.fancyskies=美丽的天空	#
@@ -4781,6 +4992,7 @@ options.resetSettings.popUp=是否确实要重置设置？	#
 options.maxFramerate=最大帧率（实验）	#
 options.maxFramerateFormat=%s FPS	#
 options.particleRenderDistance=粒子能见度	#
+options.perf_turtle=Performance Turtle	#
 options.msaa=抗锯齿	#
 options.texelAA=纹素抗锯齿	#
 options.renderDistance.far=高	#
@@ -4824,6 +5036,8 @@ options.snooper.view=匿名信息反馈设置…	#
 options.sound=音量	#
 options.sounds=音频	#
 options.sounds.title=音频设置	#
+options.accessibility=可访问性	#
+options.accessibility.title=可访问性设置	#
 options.splitscreen=拆分屏幕	#
 options.splitscreen.horizontal=水平拆分屏幕	#
 options.splitscreen.vertical=垂直拆分屏幕	#
@@ -5012,7 +5226,7 @@ hudScreen.tooltip.dismount=下马	#
 hudScreen.tooltip.collect=收集	#
 hudScreen.tooltip.peel=剥树皮	#
 hudScreen.tooltip.scaffoldingDescend=按住以下降	#
-hudScreen.tooltip.pick=挑选	#
+hudScreen.tooltip.pick=采摘	#
 
 playscreen.fileSize.MB=MB	#
 playscreen.fileSize.GB=GB	#
@@ -5246,6 +5460,7 @@ progressScreen.dialog.message.resourcePackRequired=此世界已应用资源包�
 progressScreen.dialog.message.scriptConfirm=您即将进入的世界包含了在您的设备上运行的脚本。您想加入这个世界吗？	#
 progressScreen.dialog.message.storageProviderError=无法同步你的世界数据。是否要重试？	#
 progressScreen.dialog.message.storageProviderUnusableError=该世界未完全同步，或者已经损坏。请尝试在状态良好的主机上玩该世界，然后再次尝试进行迁移。	#
+progressScreen.dialog.message.worldCorrupted=该世界已损坏。请在 bugs.mojang.com 上报告	#
 progressScreen.dialog.message.storageProviderLongWait=同步此世界要花很长时间。是否要继续等待？	#
 progressScreen.dialog.button.enter=进入世界	#
 progressScreen.dialog.button.joinAndDownload=下载并加入 - %1	#
@@ -5256,6 +5471,9 @@ progressScreen.dialog.button.leave=退出	#
 progressScreen.dialog.button.retry=重试	#
 progressScreen.dialog.button.wait=等待	#
 
+raid.name=劫掠	#
+raid.progress=剩余生物：	#
+raid.expiry=A raid has expired	#
 
 recipeBook.setting.full=满	#
 recipeBook.setting.discover=发现	#
@@ -5365,6 +5583,7 @@ storageManager.sortDateOldest=已使用数据 - 按从远到近排列	#
 storageManager.version=版本	#
 storageManager.multiselectDelete=删除	#
 storageManager.multiselectShare=分享	#
+storageManager.multiselect=多选	#
 storageManager.miscellaneous=杂项	#
 
 storageManager.groupType=类型	#
@@ -5386,8 +5605,8 @@ resourcepack.Candy=糖果材质包	#
 resourcepack.FestiveMashup2016=节日混搭 2016	#
 resourcepack.ChineseMythology=中国神话混搭包	#
 
-resourcePack.vanilla.name=我的世界	#
-resourcePack.vanilla.description=经典 我的世界 资源。	#
+resourcePack.vanilla.name=《我的世界》材质包	#
+resourcePack.vanilla.description=默认的《我的世界》图形，现已新增了时尚的新材质！	#
 
 resourcePack.city.name=城市	#
 resourcePack.city.description=适合建筑结构。	#
@@ -5445,6 +5664,11 @@ review.item.post.rating.4star=哦呵！我们很高兴您能欢度美好时光�
 review.item.post.rating.5star=我们很高兴您能欢度美好时光！	#
 review.item.post.rating.submit.toast.line1=感谢您为此包评分！	#
 review.item.post.rating.submit.toast.line2=显示您的评级需要一些时间。	#
+
+roaming.status_brief.limited_usage=限制使用	#
+roaming.status_brief.no_restrictions=跨平台可用	#
+roaming.status_hover.limited_usage=只能在特定平台上使用。	#
+roaming.status_hover.no_restrictions=适用于任何 Bedrock 平台！	#
 
 screenshot.failure=无法保存截图：%s	#
 screenshot.success=已将截图保存为%s	#
@@ -7275,6 +7499,9 @@ hbui.mainMenu.HelpModal.howToPlayButton=游戏指南	#
 hbui.mainMenu.HelpModal.faqButton=常见问题解答	#
 hbui.mainMenu.HelpModal.patchNotesButton=补丁说明	#
 hbui.mainMenu.HelpModal.closeButton=关闭	#
+hbui.mainMenu.UpdateModal.title=新更新可用	#
+hbui.mainMenu.UpdateModal.contents=该游戏现有新的可用版本。您想更新至该版本来获得所有的新特性吗？	#
+hbui.mainMenu.UpdateModal.UpdateButton=更新	#
 hbui.mainMenu.LoginModal.signInAs=登录身份为	#
 hbui.mainMenu.LoginModal.manageAccountButton=管理帐户	#
 hbui.mainMenu.LoginModal.signOutButton=注销	#
@@ -7293,3 +7520,28 @@ hbui.mainMenu.viewAllHeader=查看全部	#
 hbui.mainMenu.heroVignette=上次玩的	#
 hbui.mainMenu.heroResumeButton=继续	#
 hbui.mainMenu.heroPlayButton=继续世界	#
+
+trade.doesNotWant=商人不想要这个	#
+trade.excalamation=！	#
+trade.expProgress=经验：%d/%d	#
+trade.expMax=经验：最大	#
+trade.levelPrefix=%d 级	#
+trade.levelPrefixAndName=%d - %s 级	#
+trade.levelPrefixAndName.max=最大等级 - %s	#
+trade.level.1=新手	#
+trade.level.2=学徒	#
+trade.level.3=熟手	#
+trade.level.4=专家	#
+trade.level.5=大师	#
+trade.mysteriousText=轻拍	#
+trade.notEnough=不够 %s	#
+trade.question=？	#
+trade.trade=交易	#
+
+map.rename=重命名地图	#
+map.basicMap=基础地图	#
+map.locatorMap=会显示玩家的地图	#
+map.extendAndClear=缩小和清除	#
+map.clone=复制地图	#
+map.name=地图名称	#
+map.lock=锁定地图	#

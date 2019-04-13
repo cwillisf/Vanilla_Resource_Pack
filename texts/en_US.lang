@@ -5,6 +5,164 @@
 accessibility.disableTTS=Text To Speech disabled
 accessibility.enableTTS=Text To Speech enabled
 
+## Translator note:
+## This section of phrases will be given audibly to the user using text to speech
+
+accessibility.chat.tts.says=%s says %s
+accessibility.chat.tts.hideChat=Hide chat
+accessibility.chat.tts.keyboard=Keyboard
+accessibility.chat.tts.muteChatToggle=Mute All
+accessibility.chat.tts.sendChatMessage=Send
+accessibility.chat.tts.textboxTitle=Chat
+
+accessibility.loading.done=Done
+accessibility.saving.done=Done
+accessibility.downloading.start=Download begun
+accessibility.downloading.Progress=Downloading %s percent
+accessibility.downloading.canceled=Download canceled
+accessibility.downloading.complete=Download complete
+accessibility.importing.start=Import begun
+accessibility.importing.Progress=Importing %s percent
+accessibility.importing.canceled=Import canceled
+accessibility.importing.complete=Import complete
+accessibility.signin.xbl=Signing into X box live
+accessibility.chat.howtoopen=Press %s to open chat
+accessibility.key.mouseButton=Mouse Button %s
+accessibility.key.gamepad=Controller %s
+accessibility.list.or.two=%s or %
+accessibility.list.or.three_or_more.first=%s
+accessibility.list.or.three_or_more.inner=, %s
+accessibility.list.or.three_or_more.last=, or %s
+
+accessibility.button.tts.title=Button
+accessibility.checkbox.tts.title=Checkbox
+accessibility.checkbox.tts.status=status %s		## Status will be checked or unchecked
+accessibility.dropdown.tts.title=Dropdown
+accessibility.slider.tts.title=Slider
+accessibility.tab.tts.title=Tab
+accessibility.textbox.tts.title=Textbox
+accessibility.toggle.tts.title=Toggle
+
+accessibility.button.close=close
+accessibility.button.back=back
+accessibility.button.exit=Exit
+
+accessibility.dropdown.listItem=List item
+
+accessibility.sectionName=Section %s: 
+
+accessibility.state.on=: on
+accessibility.state.off=: off
+
+accessibility.state.checked=: checked
+accessibility.state.unchecked=: unchecked
+
+accessibility.state.selected=: selected
+accessibility.state.unselected=: unselected
+
+accessibility.slider.tts.percentValue=%s percent
+
+accessibility.play.editWorld=Edit World
+accessibility.play.editRealm=Edit Realm
+accessibility.play.editServer=Edit Server
+accessibility.play.importWorld=Import World
+accessibility.play.leaveRealm=Leave Realm
+accessibility.play.realmFeed=Realm Feed
+accessibility.play.tabLeft=Press the %s to tab left
+accessibility.play.tabRight=Press the %s to tab right
+
+accessibility.pause.permissions=Permissions
+
+accessibility.screenName.achievements=Achievements Screen
+accessibility.screenName.chat=Chat Screen
+accessibility.screenName.createNew=Create New Screen
+accessibility.screenName.createWorld=Create World Settings Screen
+accessibility.screenName.editWorldSettings=Edit World Settings Screen
+accessibility.screenName.error=Error Screen
+accessibility.screenName.howToPlay=How To Play Screen
+accessibility.screenName.modalDialog=Popup dialog
+accessibility.screenName.patchNotes=Patch Notes Screen
+accessibility.screenName.pauase=Pause Screen
+accessibility.screenName.play=Play Screen
+accessibility.screenName.realmSettings=Realm Settings Screen
+accessibility.screenName.settings=Game Settings Screen
+accessibility.screenName.skinPicker=Choose Skin Screen
+accessibility.screenName.start=Main Menu
+accessibility.screenName.vrAlignment=VR Alignment Screen 
+
+accessibility.settings.reset=reset
+accessibility.settings.chooseSeed=Choose Seed
+
+accessibility.start.feedback=Submit Feedback
+accessibility.start.new=New
+accessibility.start.skinPicker=Choose Skin
+
+accessibility.store.tag=Tag
+
+accessibility.textbox.editing=Editing
+
+accessibility.text.leftParenthesis=Left Parenthesis
+accessibility.text.rightParenthesis=Right Parenthesis
+accessibility.text.period=Period
+accessibility.text.comma=Comma
+accessibility.text.colon=Colon
+accessibility.text.apostrophe=Apostrophe
+accessibility.text.exclamationPoint=Exclamation Point
+accessibility.text.semiColon=Semi Colon
+accessibility.text.hyphen=Hyphen
+accessibility.text.questionMark=Question Mark
+accessibility.text.quotationMark=Quotation Mark
+accessibility.text.space=Space
+accessibility.text.tilde=Tilde
+accessibility.text.graves=Graves
+accessibility.text.lessThan=Less Than
+accessibility.text.greaterThan=Greater Than
+accessibility.text.leftBrace=Left Brace
+accessibility.text.rightBrace=Right Brace
+
+accessibility.toast=Notification	## This is the name of the popup that appears when a player gets a notification for a game invite or achievement unlocked
+
+accessibility.worldTemplates.help=Help
+
+accessibility.popup.title=Turn Off Screen Reader?
+accessibility.popup.message.line1=Welcome to Minecraft!
+accessibility.popup.message.default=On your device, screen reader support is enabled by default.
+accessibility.popup.message.platform=We've detected that your system has a screen reader enabled and have automatically enabled Minecraft's screen reader.
+accessibility.popup.message.touch=Touch and drag to find controls on the screen, and double tap controls to select. To scroll on a screen, double tap and hold while swiping up or down.
+accessibility.popup.message.xbl=We've detected that your account has "Let games read to me" enabled and have automatically enabled Minecraft's screen reader.
+accessibility.popup.message.line3=Would you like to turn this off?
+accessibility.popup.left_button_text=Turn Off
+accessibility.popup.right_button_text=Leave On
+
+accessibility.controllerLayoutScreen.buttonRemapped=%s is now bound to %s
+accessibility.controllerLayoutScreen.buttonBoundTo=%s button: %s
+accessibility.controllerLayoutScreen.buttonRemapping=Select input to bind for %s
+
+accessibility.gamepad.faceButton.down=A Button
+accessibility.gamepad.faceButton.right=B Button
+accessibility.gamepad.faceButton.left=X Button
+accessibility.gamepad.faceButton.up=Y Button
+accessibility.gamepad.button.systemLeft=View Button
+accessibility.gamepad.button.systemRight=Menu Button
+accessibility.gamepad.dpad.down=D-Pad Down
+accessibility.gamepad.dpad.up=D-Pad Up
+accessibility.gamepad.dpad.left=D-Pad Left
+accessibility.gamepad.dpad.right=D-Pad Right
+accessibility.gamepad.stick.left=Left Stick
+accessibility.gamepad.stick.right=Right Stick
+accessibility.gamepad.trigger.right=Right Trigger
+accessibility.gamepad.trigger.left=Left Trigger
+accessibility.gamepad.bumper.right=Right Bumper
+accessibility.gamepad.bumper.left=Left Bumper
+
+accessibility.keyboard.leftBracket=Left square bracket key		## left square bracket means '[' on the english keyboard
+accessibility.keyboard.rightBracket=Right square bracket key	## right square bracket means ']' on the english keyboard
+
+accessibility.keyboard.leftBracket=Left square bracket key		## left square bracket means '[' on the english keyboard
+accessibility.keyboard.rightBracket=Right square bracket key	## right square bracket means ']' on the english keyboard
+
+## End of audible phrases section
+
 achievement.alternativeFuel=Alternative Fuel
 achievement.alternativeFuel.desc=Power a furnace with a kelp block
 achievement.acquireIron=Acquire Hardware
@@ -637,6 +795,21 @@ commands.mixer.status.initializing=Interactivity is initializing.
 commands.mixer.status.pending=Interactivity is pending.
 commands.mixer.status.disabled=Interactivity is disabled.
 commands.mixer.activatedbutton=%1$s activated %2$s.
+
+commands.mobevent.description=Controls what mob events are allowed to run.
+commands.mobevent.eventsEnabledSetToTrue=Mob Events are now enabled. Individual events which are set to false will not run.
+commands.mobevent.eventsEnabledSetToFalse=Mob Events are now disabled. Individual events will not run.
+commands.mobevent.eventsEnabledIsTrue=Mob Events are enabled. Individual events which are set to false will not run.
+commands.mobevent.eventsEnabledIsFalse=Mob Events are disabled. Individual events will not run.
+
+## for the following new loc strings, the first parameter is a localized event name, and the second is the literal event that must be entered into the command.
+commands.mobevent.eventSetToTrue=Mob Event %s (id: %s) set to true.
+commands.mobevent.eventSetToTrueButEventsDisabled=Mob Event %s (id: %s) set to true, but Mob Events are disabled.
+commands.mobevent.eventSetToFalse=Mob Event %s (id: %s) set to false.
+commands.mobevent.eventIsTrue=Mob Event %s (id: %s) is set to true.
+commands.mobevent.eventIsTrueButEventsDisabled=Mob Event %s (id: %s) is set to true, but Mob Events are disabled.
+commands.mobevent.eventIsFalse=Mob Event %s (id: %s) is set to false.
+
 commands.op.description=Grants operator status to a player.
 commands.op.failed=Could not op (already op or higher): %s
 commands.op.success=Opped: %s
@@ -930,6 +1103,10 @@ commands.whitelist.list=There are %1$d (out of %2$d seen) whitelisted players:
 commands.whitelist.reloaded=Whitelist reloaded from file.
 commands.whitelist.remove.failed=Could not remove %1$s from the whitelist
 commands.whitelist.remove.success=Removed %1$s from the whitelist
+commands.world_age.description=Changes or queries the world's age (time since creation).
+commands.world_age.added=Added %1$d to the world's age
+commands.world_age.query=World age is %d
+commands.world_age.set=Set the world's age to %1$d
 commands.worldborder.center.success=Set world border center to %1$s,%2$s
 commands.worldborder.damage.amount.success=Set world border damage amount to %1$s per block (from %2$s per block)
 commands.worldborder.damage.buffer.success=Set world border damage buffer to %1$s blocks (from %2$s blocks)
@@ -986,10 +1163,12 @@ container.minecart=Minecart
 container.repair=Repair & Name
 container.repair.cost=XP Cost: %1$d
 container.repair.expensive=Too Expensive!
+container.repairAndDisenchant=Repair & Disenchant
 container.stonecutter=Stonecutter
 container.stonecutter_block=Stonecutter
 container.shulkerbox=Shulker Box
 container.shulkerboxContains=and %d more...
+container.barrel=Barrel
 
 controller.buttonTip.addItem=Add Item
 controller.buttonTip.addItemStack=Add Item Stack
@@ -1345,13 +1524,17 @@ realmsCreateScreen.errorRealmName=Your realm name cannot be blank.
 realmsCreateScreen.errorRealmNameAndTOS=Your realm name cannot be blank, and you must accept the terms of service to create a realm.
 realmsCreateScreen.errorTOS=Must accept terms and conditions to create a realm.
 realmsCreateScreen.goBack=Go Back
-realmsCreateScreen.purchaseFailed=Sorry, we were unable to complete your purchase. Maybe check your internet connection?
 realmsCreateScreen.createFailed.title=Something Went Wrong
+realmsCreateScreen.purchaseFailed=Sorry, we were unable to complete your realm purchase. Maybe check your internet connection?
 realmsCreateScreen.createFailed.content=Your purchase succeeded, but we couldn't create your Realm right now.  We will create your Realm as soon as possible.  Check back later on this device.
 realmsCreateScreen.createFailed.profanity=The Realm name %s is not allowed.
 realmsCreateScreen.createFailed.generic=Club name could not be verified. Please try again later.
-realmsCreateScreen.maxRealms.title=Maximum Realms Reached
-realmsCreateScreen.maxRealms.content=You have the maximum number of active realms and cannot create a new one right now.
+realmsCreateScreen.maxRealms.title=Maximum Subscriptions
+realmsCreateScreen.maxRealms.content=You have the maximum number of active subscriptions on this platform and cannot create a new one right now.
+realmsCreateScreen.offerNotFound.title=Product not found
+realmsCreateScreen.offerNotFound.content=Please try again later
+realmsCreateScreen.offerNotAvailable.title=Product not available for purchase
+realmsCreateScreen.offerNotAvailable.content=Please try again later
 realmsCreateScreen.extendRealms.title=Realm Subscription Full
 realmsCreateScreen.extendRealms.content=You have extended your Realms subscription as long as possible.  You cannot add this additional time right now.  Try again later.
 realmsCreateScreen.usersTwo=2 Players
@@ -1781,6 +1964,9 @@ storageSpaceWarningScreen.frontend=You are almost out of data storage space! Min
 storageSpaceWarningScreen.lowduringgameplay=Your device is almost out of the space that Minecraft can use to save worlds and settings on this device.  Why not delete some old stuff you don't need so that you can keep saving new stuff?
 storageSpaceWarningScreen.fullduringgameplay=You are out of data storage space and Minecraft is unable to save your progress! Minecraft will return you to the Main Menu to clear up storage space.
 
+effect.badOmen=Bad Omen
+effect.villageHero=Hero of the Village
+
 enchantment.arrowDamage=Power
 enchantment.arrowFire=Flame
 enchantment.arrowInfinite=Infinity
@@ -1868,7 +2054,7 @@ entity.ghast.name=Ghast
 entity.guardian.name=Guardian
 entity.horse.name=Horse
 entity.husk.name=Husk
-entity.illager_beast.name=Illager Beast
+entity.ravager.name=Ravager
 entity.iron_golem.name=Iron Golem
 entity.item.name=Item
 entity.leash_knot.name=Leash Knot
@@ -2131,6 +2317,13 @@ gui.submit=Submit
 gui.playOffline=Play Offline
 gui.signIn=Sign In
 gui.genericNetworkError=Something went wrong. Try checking your internet connection.
+
+updateScreen.update=Update
+updateScreen.title=Version Out of Date
+updateScreen.body=Update to the latest version to access all the new features, play with friends online, or see what's new in the Store.
+updateScreen.commerceNotSupported.title=Can't Access Marketplace
+updateScreen.commerceNotSupported.body=This version of Minecraft can no longer access the Minecraft Marketplace. Update to the latest version to restore Marketplace access.
+updateScreen.patchVersion=Version %s Patch Notes:
 
 hostOption.codeBuilder=Code Builder
 hostOption.setWorldSpawn=Set World Spawn
@@ -2764,11 +2957,13 @@ howtoplay.navigation.header.1=Navigation Tools
 howtoplay.navigation.text.3=A Compass will point in the direction of the first place you spawned into the world, an easy way to find where you started.
 howtoplay.navigation.text.4=A Map lets you see the area you've explored. Put it in your offhand slot to use it like a mini-map. You can increase its size by adding more paper to the edges in a Crafting Table.
 howtoplay.navigation.text.5=A Locator Map will show you where you are and what direction you are facing in relation to the Locator Map's origin. It will also show you the location of other players in the same world.
+howtoplay.navigation.text.6=A Cartography Table can help you create, expand, copy and even name maps.
+howtoplay.navigation.text.7=Place paper into the first slot to craft a Map. If you add a compass into the second slot you can craft a Locator Map. Adding Paper or a blank Map will let you expand or copy your Map.  
 howtoplay.navigation.header.2=Navigation Techniques
-howtoplay.navigation.text.6=Try to watch for landmarks as you explore. The more you play on a world, the more you will be able to remember where you are. Another good trick is to place Torches as you go so that you may find your way back home.
-howtoplay.navigation.text.7=The sun can also tell you what direction you are facing. Remember: the sun rises in the east and sets in the west!
+howtoplay.navigation.text.8=Try to watch for landmarks as you explore. The more you play on a world, the more you will be able to remember where you are. Another good trick is to place Torches as you go so that you may find your way back home.
+howtoplay.navigation.text.9=The sun can also tell you what direction you are facing. Remember: the sun rises in the east and sets in the west!
 howtoplay.navigation.header.3=Explorer Maps
-howtoplay.navigation.text.8=There are several places for you to explore. Find a village and look for a Cartographer. He will trade you Explorer Maps that will lead you to strange places very far away.
+howtoplay.navigation.text.10=There are several places for you to explore. Find a village and look for a Cartographer. He will trade you Explorer Maps that will lead you to strange places very far away.
 
 howtoplay.netherPortals=Nether Portal
 howtoplay.netherPortals.title=How to Play : Nether Portal
@@ -2795,6 +2990,13 @@ howtoplay.pets.header.3=Ocelots
 howtoplay.pets.text.3=Ocelots are a neutral mob that hunt in the Jungle. They will attack Chickens and keep Creepers away. They will try to run from you so taming them can be tough. They like fish so give them Raw Cod or Salmon to tame them.
 howtoplay.pets.header.4=Parrots
 howtoplay.pets.text.4=Parrots are a passive mob that also live in the Jungle. They will imitate any other mob in the area. Seeds are their favorite, give them a few to tame them. Parrots will also sit on your shoulder... Yes, you can have more than one up there.
+
+howtoplay.raids=Raids
+howtoplay.raids.title=How to Play : Raids
+howtoplay.raids.text.1=While exploring the world you may encounter a Pillager encampment or patrol. Pillagers are always looking for villages to raid taking their Banners will get their attention, and they may choose to attack a nearby village.  
+howtoplay.raids.text.2=Be sure to defend your village, the attack will stop if you defeat all the raiders.
+howtoplay.raids.header.1=I Need A Hero
+howtoplay.raids.text.3=Villagers will most likely be very grateful that you have saved them from the raiders. Be sure to check back with them, you might get a good deal.  
 
 howtoplay.ranching=Ranching
 howtoplay.ranching.title=How to Play : Ranching
@@ -2840,7 +3042,7 @@ howtoplay.scaffolding.text.1.touch=Scaffolding can help you create huge structur
 howtoplay.scaffolding.text.1.rift_controller=Scaffolding can help you create huge structures safely! You can walk inside scaffolding and stand on it. If you have a column of scaffolding you can go upward by standing in the scaffolding and pressing the :rift_A: button. If you want to travel downward you can press and hold the :rift_X: button.
 howtoplay.scaffolding.text.1.windowsmr_controller=Scaffolding can help you create huge structures safely! You can walk inside scaffolding and stand on it. If you have a column of scaffolding you can go upward by standing in the scaffolding and pressing the :windowsmr_right_touchpad: button. If you want to travel downward you can press and hold the :windowsmr_right_stick: button.
 howtoplay.scaffolding.header.2=Support Your Build
-howtoplay.scaffolding.text.2=Scaffolding needs support. You can only place 4 scaffolding horizontally without touching a different block. When you attempt to place the 5th scaffolding block without proper support, it will fall. Scaffolding can be placed like normal blocks, but it can also be placed on its own foundation to quickly grow a tall tower.
+howtoplay.scaffolding.text.2=Scaffolding needs support. You can only place so many scaffolding horizontally without touching a different block. When you attempt to place too many scaffolding blocks without proper support, it will fall. Scaffolding can be placed like normal blocks, but it can also be placed on its own foundation to quickly build a tall tower.
 howtoplay.scaffolding.header.3=Break It Down
 howtoplay.scaffolding.text.3=When Scaffolding is broken it will also break every Scaffolding block that was being supported by it. This will let you quickly clean up your scaffolding by breaking the supporting blocks!
 
@@ -2893,10 +3095,11 @@ howtoplay.tools.text.12=Shears are very handy for collecting items like Wool, Le
 
 howtoplay.trading=Villager Trading
 howtoplay.trading.title=How to Play : Villager Trading
-howtoplay.trading.text.1=Trading can be done in villages. Each villager has a profession; they can be Farmers, Butchers, Blacksmiths, Cartographers, Librarians, or Priests. This designates the type of items they can trade.
+howtoplay.trading.text.1=Trading can be done in villages. Each villager has a profession; they can be Farmers, Butchers, Blacksmiths, Cartographers, Librarians, or Priests. Some professions will trade for items that other professions cannot. Explore and trade with many villagers to find all the trades. 
 howtoplay.trading.header.1=Goods for Emeralds
-howtoplay.trading.text.2=You can find a list of all the trades a villager is offering in the trading menu. A villager may modify or add to its trades whenever a player trades with it, although a trade might become temporarily disabled if it is used too frequently.
-howtoplay.trading.text.3=Trades usually involve buying or selling items for emeralds.
+howtoplay.trading.text.2=You can find out what a villager is offering as trade by interacting with them. A villager may adjust the price of a trade whenever a player trades with it. A villager may run out of stock, temporarily disabling the trade if it is used too frequently. Trades usually involve buying or selling items for emeralds. 
+howtoplay.trading.text.3=As you trade with villagers, they will get better at their profession and start to offer better and more valuable trades.  
+howtoplay.trading.text.4=Take care of your villagers, they need to rest, work, and eat to thrive.
 
 howtoplay.transportation=Transportation
 howtoplay.transportation.title=How to Play : Transportation
@@ -3244,6 +3447,7 @@ item.banner.half_vertical_right.red=Red Per Pale Inverted
 item.banner.half_vertical_right.silver=Light Gray Per Pale Inverted
 item.banner.half_vertical_right.white=White Per Pale Inverted
 item.banner.half_vertical_right.yellow=Yellow Per Pale Inverted
+item.banner.illager_captain.name=Illager Banner
 item.banner.lightBlue.name=Light Blue Banner
 item.banner.lime.name=Lime Banner
 item.banner.magenta.name=Magenta Banner
@@ -3880,7 +4084,7 @@ item.spawn_egg.entity.mooshroom.name=Spawn Mooshroom
 item.spawn_egg.entity.squid.name=Spawn Squid
 item.spawn_egg.entity.rabbit.name=Spawn Rabbit
 item.spawn_egg.entity.bat.name=Spawn Bat
-item.spawn_egg.entity.illager_beast.name=Spawn Illager Beast
+item.spawn_egg.entity.ravager.name=Spawn Ravager
 item.spawn_egg.entity.iron_golem.name=Spawn Iron Golem
 item.spawn_egg.entity.snow_golem.name=Spawn Snow Golem
 item.spawn_egg.entity.ocelot.name=Spawn Ocelot
@@ -4356,6 +4560,7 @@ map.toolTip.displayMarkers=Display Markers
 map.toolTip.scaling=Scaling at 1:%s
 map.toolTip.level=Level %s/%s
 map.toolTip.unkown=Unknown Map
+map.toolTip.locked=Locked
 map.position.agent=Agent Pos: %s, %s, %s
 map.position=Position: %s, %s, %s
 
@@ -4406,6 +4611,7 @@ menu.makingBackup=Making backup...
 menu.saving=Saving...
 
 merchant.deprecated=Trade something else to unlock!
+
 
 mount.onboard=Press %1$s to dismount
 
@@ -4626,6 +4832,10 @@ options.dev_overrideDateMinute=Minute
 options.dev_overrideDayLength=Override Day Length In Minutes (Min: 1)
 options.dev_overrideTimeScale=Scale Speed That Time Passes (Min: 1, Default: 1)
 options.dev_updateOverrideDate=Update Override Date
+options.dev_overrideVersionMajor=Major
+options.dev_overrideVersionMinor=Minor
+options.dev_overrideVersionPatch=Patch
+options.dev_updateVersionOverride=Update Client Version Override
 options.dev_resetOverrideDate=Reset Override Date
 options.dev_clearStoreCache=Clear Store Cache
 options.dev_clearAllCache=Clear All Cache
@@ -4653,6 +4863,7 @@ options.difficulty.normal=Normal
 options.difficulty.peaceful=Peaceful
 options.dpadscale=D-Pad Size
 options.enableChatTextToSpeech=Enable Text To Speech For Chat
+options.enableUITextToSpeech=Enable UI Screen Reader
 options.entityShadows=Entity Shadows
 options.editSettings=Edit Settings
 options.fancyskies=Beautiful Skies
@@ -4781,6 +4992,7 @@ options.resetSettings.popUp=Do you really want to reset the settings?
 options.maxFramerate=Max Framerate (Experimental)
 options.maxFramerateFormat=%s FPS
 options.particleRenderDistance=Particle Render Distance
+options.perf_turtle=Performance Turtle
 options.msaa=Anti-Aliasing
 options.texelAA=Texel Anti-Aliasing
 options.renderDistance.far=Far
@@ -4824,6 +5036,8 @@ options.snooper.view=Snooper Settings...
 options.sound=Sound Volume
 options.sounds=Audio
 options.sounds.title=Audio Settings
+options.accessibility=Accessibility
+options.accessibility.title=Accessibility Settings
 options.splitscreen=Split Screen
 options.splitscreen.horizontal=Horizontal Split Screen
 options.splitscreen.vertical=Vertical Split Screen
@@ -5246,6 +5460,7 @@ progressScreen.dialog.message.resourcePackRequired=This world has Resource Packs
 progressScreen.dialog.message.scriptConfirm=The world you are about to enter contains scripts that run on your device. Would you like to join this world?
 progressScreen.dialog.message.storageProviderError=Could not sync your world data.  Would you like to try again?
 progressScreen.dialog.message.storageProviderUnusableError=The world is not fully synced or has been corrupted. Try playing the world on a console where it's in a good state and try migrating it again.
+progressScreen.dialog.message.worldCorrupted=The world has been corrupted. Please report this at bugs.mojang.com
 progressScreen.dialog.message.storageProviderLongWait=Syncing this world is taking a long time.  Would you like to continue waiting?
 progressScreen.dialog.button.enter=Enter World
 progressScreen.dialog.button.joinAndDownload=Download & Join - %1
@@ -5256,6 +5471,9 @@ progressScreen.dialog.button.leave=Leave
 progressScreen.dialog.button.retry=Retry
 progressScreen.dialog.button.wait=Wait
 
+raid.name=Raid
+raid.progress=Mobs remaining:
+raid.expiry=A raid has expired
 
 recipeBook.setting.full=Full
 recipeBook.setting.discover=Discover
@@ -5365,6 +5583,7 @@ storageManager.sortDateOldest=Date Used - Oldest First
 storageManager.version=Version 
 storageManager.multiselectDelete=Delete
 storageManager.multiselectShare=Share
+storageManager.multiselect=Multiselect
 storageManager.miscellaneous=Miscellaneous
 
 storageManager.groupType=Type
@@ -5386,8 +5605,8 @@ resourcepack.Candy=Candy Texture Pack
 resourcepack.FestiveMashup2016=Festive Mash-up 2016
 resourcepack.ChineseMythology=Chinese Mythology Mash-up
 
-resourcePack.vanilla.name=Minecraft
-resourcePack.vanilla.description=The classic Minecraft resources.
+resourcePack.vanilla.name=Minecraft Texture Pack
+resourcePack.vanilla.description=The default Minecraft graphics, now updated with stylish new textures!
 
 resourcePack.city.name=City
 resourcePack.city.description=Ideal for building structures.
@@ -5445,6 +5664,11 @@ review.item.post.rating.4star=Woohoo! We're glad you're having a good time!
 review.item.post.rating.5star=We're glad you're having a great time!
 review.item.post.rating.submit.toast.line1=Thanks for rating this pack!
 review.item.post.rating.submit.toast.line2=It may take some time for us to show your rating.
+
+roaming.status_brief.limited_usage=Limited usage
+roaming.status_brief.no_restrictions=Usable cross-platform
+roaming.status_hover.limited_usage=Only available on specific platforms.
+roaming.status_hover.no_restrictions=Available on any Bedrock platform!
 
 screenshot.failure=Couldn't save screenshot: %s
 screenshot.success=Saved screenshot as %s
@@ -7275,6 +7499,9 @@ hbui.mainMenu.HelpModal.howToPlayButton=How to play
 hbui.mainMenu.HelpModal.faqButton=FAQ
 hbui.mainMenu.HelpModal.patchNotesButton=Patch notes
 hbui.mainMenu.HelpModal.closeButton=Close
+hbui.mainMenu.UpdateModal.title=New update available
+hbui.mainMenu.UpdateModal.contents=There is a new version of the game available, do you want to update to it to get all the new features?
+hbui.mainMenu.UpdateModal.UpdateButton=Update
 hbui.mainMenu.LoginModal.signInAs=Signed in as
 hbui.mainMenu.LoginModal.manageAccountButton=Manage account
 hbui.mainMenu.LoginModal.signOutButton=Sign out
@@ -7293,3 +7520,28 @@ hbui.mainMenu.viewAllHeader=View all
 hbui.mainMenu.heroVignette=Latest played
 hbui.mainMenu.heroResumeButton=Resume
 hbui.mainMenu.heroPlayButton=Resume world
+
+trade.doesNotWant=Trader does not want this
+trade.excalamation=!
+trade.expProgress=Experience: %d/%d
+trade.expMax=Experience: MAX
+trade.levelPrefix=Level %d
+trade.levelPrefixAndName=Level %d - %s
+trade.levelPrefixAndName.max=Max Level - %s
+trade.level.1=Novice
+trade.level.2=Apprentice
+trade.level.3=Journeyman
+trade.level.4=Expert
+trade.level.5=Master
+trade.mysteriousText=dab
+trade.notEnough=Not enough %s
+trade.question=?
+trade.trade=Trade
+
+map.rename=Rename Map
+map.basicMap=Basic Map
+map.locatorMap=Map that Shows Players
+map.extendAndClear=Zoom Out & Clear
+map.clone=Copy Map
+map.name=Map Name
+map.lock=Lock Map

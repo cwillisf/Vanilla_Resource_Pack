@@ -481,8 +481,8 @@
   "farmland": {
     "textures": {
       "up": "farmland",
-      "down": "dirt",
-      "side": "dirt"
+      "down": "farmland_side",
+      "side": "farmland_side"
     },
     "sound": "gravel"
   },
@@ -1344,7 +1344,11 @@
       "up": true,
       "down": true
     },
-    "textures": "redsandstone_side"
+    "textures": {
+      "up": "redsandstone_top",
+      "down": "redsandstone_bottom",
+      "side": "redsandstone_side"
+    }
   },
   "double_stone_slab2": {
     "textures": {

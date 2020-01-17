@@ -1720,6 +1720,12 @@ realmsCreateScreen.playNowMessage2=Zawsze możesz też znaleźć serwer w zakła
 realmsCreateScreen.playWithFriends=Graj ze znajomymi	#
 realmsCreateScreen.playSolo=Graj solo	#
 realmsCreateScreen.goBack=Wróć do sklepu	#
+realmsCreateScreen.purchaseConfirmation.title=Czy chcesz kupić świat Realm?	#
+realmsCreateScreen.purchaseConfirmation.create.message=Czy na pewno chcesz stworzyć świat Realm?	#
+realmsCreateScreen.purchaseConfirmation.extend.message=Czy na pewno chcesz rozbudować świat Realm?	#
+realmsCreateScreen.purchaseConfirmation.renew.message=Czy na pewno chcesz odnowić świat Realm?	#
+realmsCreateScreen.purchaseConfirmation.continue=Zatwierdź zakup	#
+realmsCreateScreen.purchaseConfirmation.cancel=Anuluj	#
 
 realmsCreateScreen.title=Stwórz świat Realms	#
 realmsCreateScreen.nameHeader=Nazwa świata Realms	#
@@ -2205,6 +2211,7 @@ edu.worlds_screen.search_placeholder=Wyszukaj	#
 edu.worlds_screen.play=GRAJ	#
 edu.worlds_screen.host=GOSPODARZ	#
 edu.worlds_screen.settings=USTAWIENIA	#
+edu.worlds_screen.courses_title=Moje kursy	#
 
 edu.templates.title=Moje szablony	#
 edu.templates.local_header=MOJE SZABLONY: %1	#
@@ -6038,7 +6045,7 @@ resourcePack.description.default.level=Możesz to zmienić w ustawieniach.	#
 resourcePack.description.default.behaviorPacks=Domyślna rozgrywka Minecrafta.	#
 resourcePack.description.bottom.global=Paczki zasobów stosuje się kompleksowo. Oznacza to, że dowolny obiekt znajdujący się w dwóch paczkach będzie zastąpiony przez swój późniejszy odpowiednik. Paczki z twoich światów zastąpią paczki globalne. Te zasoby są tylko dla ciebie. Nikt inny nie będzie widział ustawionych tu zasobów. Paczki zasobów w twoich światach lub światach, do których dołączasz, będą zastępowały globalne zasoby.	#
 resourcePack.description.bottom.behaviorPacks=Paczki zachowań stosuje się kompleksowo. Oznacza to, że dowolny obiekt znajdujący się w dwóch paczkach będzie zastąpiony przez swój późniejszy odpowiednik.	#
-resourcePack.description.bottom.level=Paczki zasobów stosuje się kompleksowo. Oznacza to, że dowolny obiekt znajdujący się w dwóch paczkach będzie zastąpiony przez swój późniejszy odpowiednik. Paczki z twoich światów zastąpią paczki globalne. 	#
+resourcePack.description.bottom.level=Paczki zasobów stosuje się kompleksowo. Oznacza to, że dowolny obiekt znajdujący się w dwóch paczkach będzie zastąpiony przez swój późniejszy odpowiednik. Paczki z twoich światów zastąpią paczki globalne.	#
 resourcePack.description.store=Pokaż w sklepie	#
 resourcePack.header.behavior=Aktywne paczki zachowań mają zastosowanie do wszystkich graczy.	#
 resourcePack.header.level=Wymagaj od graczy, żeby zaakceptowali paczki zasobów przed dołączeniem	#
@@ -6405,7 +6412,7 @@ stat.diveOneCm=Dystans przepłynięty pod wodą	#
 stat.drop=Upuszczone przedmioty	#
 stat.dropperInspected=Przeszukane podajniki	#
 stat.enderchestOpened=Otwarte skrzynie Kresu	#
-stat.entityKilledBy=Liczba twoich śmierci: %d, sprawca: %s 	#
+stat.entityKilledBy=Liczba twoich śmierci: %d, sprawca: %s	#
 stat.entityKilledBy.none=Nie poniesiono nigdy śmierci za sprawą: %s	#
 stat.entityKills=%s, liczba zabitych: %d	#
 stat.entityKills.none=Nigdy nie zabito: %s	#
@@ -6476,8 +6483,15 @@ store.realmsPlus.buyNow.viewPrivacyPolicy=POLITYKA PRYWATNOŚCI	#
 
 store.realmsPlus.buyNow.title=Rozpocznij subskrypcję usługi Realms Plus	#
 store.realmsPlus.startTrial.title=Rozpocznij 30-dniowy BEZPŁATNY okres próbny już teraz!	#
-store.realmsPlus.startTrial.description=Dostęp do twojego świata Realms i ponad 50 zestawów do pobrania z rynku otrzymasz natychmiast. Usługa umożliwia jednoczesną rozgrywkę nawet 10 graczom, a każdy z nich również otrzyma bezpłatny dostęp do otrzymanej w ramach subskrypcji zawartości wykorzystywanej w twoim świecie Realms. Pierwszy miesiąc subskrypcji jest darmowy, a z każdym następnym miesiącem będziemy pobierać opłatę w wysokości %s. Subskrypcję możesz w dowolnej chwili anulować.	#
+store.realmsPlus.startTrial.description=Dostęp do twojego świata Realm i ponad 50 zestawów do pobrania z rynku otrzymasz natychmiast. Usługa umożliwia jednoczesną rozgrywkę nawet 10 graczom, a każdy z nich otrzyma również bezpłatny dostęp do otrzymanej w ramach subskrypcji zawartości wykorzystywanej w twoim świecie Realm. Pierwszy miesiąc subskrypcji jest darmowy, a z każdym następnym miesiącem będziemy pobierać opłatę w wysokości %s. Subskrypcję możesz w dowolnej chwili anulować.	#
+store.realmsPlus.noTrial.description=Dostęp do twojego świata Realm i ponad 50 zestawów do pobrania z rynku otrzymasz natychmiast. Usługa umożliwia jednoczesną rozgrywkę nawet 10 graczom, a każdy z nich otrzyma również bezpłatny dostęp do otrzymanej w ramach subskrypcji zawartości wykorzystywanej w twoim świecie Realm. Twoja subskrypcja będzie aktywna przez 30 dni za opłatą w wysokości %s:minecoin:.	#
+store.realmsPlus.noTrial.description.iap=Dostęp do twojego świata Realm i ponad 50 zestawów do pobrania z rynku otrzymasz natychmiast. Usługa umożliwia jednoczesną rozgrywkę nawet 10 graczom, a każdy z nich otrzyma również bezpłatny dostęp do otrzymanej w ramach subskrypcji zawartości wykorzystywanej w twoim świecie Realm. Twoja subskrypcja będzie aktywna przez 30 dni za opłatą w wysokości %s.	#
 store.realmsPlus.realmName.placeholder=Świat Realms użytkownika %s		#The string passed in here is the gamertag of the player to indicate the name of the player's world.	#
+
+store.realmsPlus.recurring.offerTrial=Dostęp do twojego świata Realm i ponad 50 zestawów do pobrania z rynku otrzymasz natychmiast. Usługa umożliwia jednoczesną rozgrywkę nawet 10 graczom, a każdy z nich również otrzyma bezpłatny dostęp do twoich światów Realm! Pierwszy miesiąc subskrypcji jest darmowy, a z każdym następnym miesiącem będziemy pobierać opłatę w wysokości %s. Subskrypcję możesz w dowolnej chwili anulować.	#
+store.realmsPlus.recurring.withoutTrial=Dostęp do twojego świata Realm i ponad 50 zestawów do pobrania z rynku otrzymasz natychmiast. Usługa umożliwia jednoczesną rozgrywkę nawet 10 graczom, a każdy z nich również otrzyma bezpłatny dostęp do twoich światów Realm! Za każdy miesiąc subskrypcji będziemy pobierać opłatę w wysokości %s. Subskrypcję możesz w dowolnej chwili anulować.	#
+store.realmsPlus.consumable.offerTrial=Dostęp do twojego świata Realm i ponad 50 zestawów do pobrania z rynku otrzymasz natychmiast. Usługa umożliwia jednoczesną rozgrywkę nawet 10 graczom, a każdy z nich również otrzyma bezpłatny dostęp do twoich światów Realm! Przez pierwsze 30 dni twoja subskrypcja będzie darmowa. Po upływie tego okresu możesz odnowić ją na kolejne 30 dni za opłatą w wysokości %s.	#
+store.realmsPlus.consumable.withoutTrial=Dostęp do twojego świata Realm i ponad 50 zestawów do pobrania z rynku otrzymasz natychmiast. Usługa umożliwia jednoczesną rozgrywkę nawet 10 graczom, a każdy z nich również otrzyma bezpłatny dostęp do twoich światów Realm! Twoja subskrypcja będzie aktywna przez 30 dni za opłatą w wysokości %s.	#
 
 store.realmsPlus.landing.header=Subskrypcja umożliwia:	#
 
@@ -6497,8 +6511,8 @@ store.realmsPlus.faq.question2=Czy mogę korzystać ze swoich zestawów Realms P
 store.realmsPlus.faq.answer2=Nie musisz mieć dostępu do Internetu, aby korzystać z usługi Realms Plus. Zawartość zestawów otrzymanych w ramach subskrypcji dostępna jest zarówno w trybie online w twoim osobistym świecie Realms, jak również na urządzeniach lokalnych. Wystarczy, że zalogujesz się raz na 30 dni, by potwierdzić aktywność swojej subskrypcji.	#
 store.realmsPlus.faq.question3=Czy moi znajomi muszą korzystać z usługi Realms Plus, aby zagrać w moim świecie Realms?	#
 store.realmsPlus.faq.answer3=Twoi znajomi nie muszą mieć aktywnej subskrypcji Realms Plus, aby dołączyć do świata Realms. Zaproszeni znajomi, którzy mają dostęp do światów Realms, mogą dołączyć do twojego świata Realms za darmo.	#
-store.realmsPlus.faq.question4=Czy w swoim świecie Realms mogę korzystać ze światów, zestawów tekstur, skórek i miksów Realms Plus?	#
-store.realmsPlus.faq.answer4=Oczywiście! Do swojego świata Realms możesz wczytać dowolne światy, zestawy tekstur, skórek i miksów z katalogu usługi Realms Plus lub rynku Minecrafta, a następnie zaprosić znajomych, aby dołączyli do twojego świata za darmo.	#
+store.realmsPlus.faq.question4=Czy w swoim świecie Realm mogę korzystać ze światów, zestawów tekstur i miksów Realms Plus?	#
+store.realmsPlus.faq.answer4=Oczywiście! Do swojego świata Realm możesz wczytać dowolne światy, zestawy tekstur i miksy z katalogu usługi Realms Plus lub rynku Minecrafta, a następnie zaprosić znajomych, aby dołączyli do twojego świata za darmo.	#
 store.realmsPlus.faq.question5=Ile kosztuje subskrypcja usługi Realms Plus?	#
 store.realmsPlus.faq.answer5=%s miesięcznie — czyli tyle samo, ile przed magiczną przemianą usługi Realms w Realms Plus!	#
 store.realmsPlus.faq.question6=Jak często do usługi Realms Plus dodawane są nowe zestawy?	#
@@ -6526,7 +6540,8 @@ store.realmsPlus.content.mashupDescription=Spróbuj wszystkiego po trochu dzięk
 
 store.realmsPlus.content.popularPacks=Popularne zestawy w usłudze Realms Plus:	#
 store.realmsPlus.content.viewAllPacks=ZOBACZ WSZYSTKIE ZESTAWY	#
-store.realmsPlus.content.contentDescription=Zaczerpnij ze źródła wspaniałej zawartości gry Minecraft! Dzięki usłudze Realms Plus zyskujesz dostęp do ponad 50 przedmiotów na rynku, takich jak miksy, światy, zestawy skórek i niezwykłe przygody — a każdego miesiąca pula powiększa się o nowości. Twoja zawartość jest przechowywana na twoim serwerze osobistym i dostępna na każdym urządzeniu obsługującym usługę Realms i rynek Minecrafta. Usługa umożliwia jednoczesną rozgrywkę nawet 10 graczom, a każdy z nich otrzyma również bezpłatny dostęp do dostępnej w ramach subskrypcji zawartości wykorzystywanej w twoim świecie Realms!	#
+store.realmsPlus.content.contentDescription=Zaczerpnij ze źródła wspaniałej zawartości gry Minecraft! Dzięki usłudze Realms Plus zyskujesz dostęp do ponad 50 przedmiotów na rynku, takich jak miksy, światy, zestawy skórek i niezwykłe przygody – a każdego miesiąca pula powiększa się o nowości. Twoja zawartość jest przechowywana na twoim osobistym serwerze i dostępna na każdym urządzeniu obsługującym usługę Realms i rynek Minecrafta. Usługa umożliwia jednoczesną rozgrywkę nawet 10 graczom, a każdy z nich otrzyma również bezpłatny dostęp do dostępnej w ramach subskrypcji zawartości wykorzystywanej w twoim świecie Realm!	#
+
 
 store.realmsPlus.freeTrial=ROZPOCZNIJ DARMOWY MIESIĄC PRÓBNY	#
 
@@ -8014,11 +8029,12 @@ manifestvalidation.delete.confirm_title=Usunąć paczkę?	#
 manifestvalidation.delete.confirm_body=Za chwilę usuniesz tę paczkę zasobów/zachowań na zawsze. Na pewno chcesz to zrobić?	#
 manifestvalidation.delete.confirm_delete=Usuń	#
 manifestvalidation.delete.confirm_goBack=Wróć	#
-manifestvalidation.packid=Identyfikator paczki: %s	#
-manifestvalidation.packversion=Wersja paczki: %s	#
-manifestvalidation.filelocation=Lokalizacja pliku: %s	#
-manifestvalidation.file=Plik: %s	#
-manifestvalidation.issue=Problem: %s	#
+manifestvalidation.packid=Identyfikator zestawu:	#
+manifestvalidation.packversion=Wersja zestawu:	#
+manifestvalidation.filelocation=Lokalizacja pliku:	#
+manifestvalidation.errorlist=Lista błędów	#
+manifestvalidation.file=Plik:	#
+manifestvalidation.issue=Problem:	#
 manifestvalidation.unkown.packtype=Nieznany rodzaj paczki	#
 manifestvalidation.unkown.packtitle=Nieznana nazwa paczki	#
 manifestvalidation.unkown.packdescription=Nieznany opis paczki	#

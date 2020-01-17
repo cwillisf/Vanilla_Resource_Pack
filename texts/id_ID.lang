@@ -1720,6 +1720,12 @@ realmsCreateScreen.playNowMessage2=Atau, kamu bisa menemukannya kapan saja di ta
 realmsCreateScreen.playWithFriends=Bermain dengan Teman	#
 realmsCreateScreen.playSolo=Bermain Sendirian	#
 realmsCreateScreen.goBack=Kembali ke Toko	#
+realmsCreateScreen.purchaseConfirmation.title=Beli Realm?	#
+realmsCreateScreen.purchaseConfirmation.create.message=Kamu yakin ingin membuat Realm?	#
+realmsCreateScreen.purchaseConfirmation.extend.message=Kamu yakin ingin memperluas Realm?	#
+realmsCreateScreen.purchaseConfirmation.renew.message=Kamu yakin ingin memperbarui Realm?	#
+realmsCreateScreen.purchaseConfirmation.continue=Konfirmasi Pembelian	#
+realmsCreateScreen.purchaseConfirmation.cancel=Batal	#
 
 realmsCreateScreen.title=Buat Realm	#
 realmsCreateScreen.nameHeader=Nama Realm	#
@@ -2205,6 +2211,7 @@ edu.worlds_screen.search_placeholder=Cari	#
 edu.worlds_screen.play=MAIN	#
 edu.worlds_screen.host=HOST	#
 edu.worlds_screen.settings=PENGATURAN	#
+edu.worlds_screen.courses_title=Kursus Saya	#
 
 edu.templates.title=Template Saya	#
 edu.templates.local_header=TEMPLATE SAYA: %1	#
@@ -6083,7 +6090,7 @@ storageManager.contentType.resourcePacks=Paket Sumber Daya	#
 storageManager.contentType.behaviorPacks=Paket Perilaku	#
 storageManager.contentType.skinPacks=Paket Skin	#
 
-storageManager.baseWorld=Dunia Dasar 	#
+storageManager.baseWorld=Dunia Dasar	#
 
 storageManager.mainSizeLabel=%s - 1 Item	#
 storageManager.mainSizeLabelPlural=%s - %s Item	#
@@ -6476,8 +6483,15 @@ store.realmsPlus.buyNow.viewPrivacyPolicy=KEBIJAKAN PRIVASI	#
 
 store.realmsPlus.buyNow.title=Mulai Langganan Realms Plus	#
 store.realmsPlus.startTrial.title=Mulai uji coba GRATIS 30 hari sekarang juga!	#
-store.realmsPlus.startTrial.description=Realm kamu dan 50+ paket marketplace akan langsung tersedia. Hingga 10 pemain bisa bermain sekaligus, dan mereka bisa mengakses semua konten pelanggan di Realm kamu - gratis! Biaya langganan bulan pertama gratis, dan kamu akan ditagih %s/bulan setelahnya, bisa dibatalkan kapan pun.	#
+store.realmsPlus.startTrial.description=Realm kamu dan 50+ paket marketplace akan langsung tersedia. Hingga 10 pemain bisa bermain sekaligus, dan mereka bisa mengakses dunia di Realm kamu secara gratis! Biaya langganan bulan pertama gratis, dan kamu akan ditagih %s/bulan setelahnya, bisa dibatalkan kapan pun.	#
+store.realmsPlus.noTrial.description=Realm kamu dan 50+ paket marketplace akan langsung tersedia. Hingga 10 pemain bisa bermain sekaligus, dan mereka bisa mengakses dunia di Realm kamu secara gratis! Langgananmu akan tersedia selama 30 hari dengan harga %s:minecoin:.	#
+store.realmsPlus.noTrial.description.iap=Realm kamu dan 50+ paket marketplace akan langsung tersedia. Hingga 10 pemain bisa bermain sekaligus, dan mereka bisa mengakses dunia di Realm kamu secara gratis! Langgananmu akan tersedia selama 30 hari dengan harga %s.	#
 store.realmsPlus.realmName.placeholder=Realm %s		#The string passed in here is the gamertag of the player to indicate the name of the player's world.	#
+
+store.realmsPlus.recurring.offerTrial=Realm kamu dan 50+ paket marketplace akan langsung tersedia. Hingga 10 pemain bisa bermain sekaligus, dan mereka bisa mengakses dunia di Realm kamu secara gratis! Biaya langganan bulan pertama gratis, dan kamu akan ditagih %s/bulan setelahnya, bisa dibatalkan kapan pun.	#
+store.realmsPlus.recurring.withoutTrial=Realm kamu dan 50+ paket marketplace akan langsung tersedia. Hingga 10 pemain bisa bermain sekaligus, dan mereka bisa mengakses dunia di Realm kamu secara gratis! Kamu akan ditagih %s/bulan dan bisa dibatalkan kapan pun.	#
+store.realmsPlus.consumable.offerTrial=Realm kamu dan 50+ paket marketplace akan langsung tersedia. Hingga 10 pemain bisa bermain sekaligus, dan mereka bisa mengakses dunia di Realm kamu secara gratis! Langgananmu selama 30 hari pertama gratis dan kamu bisa memperpanjang selama 30 hari dengan harga %s setelahnya.	#
+store.realmsPlus.consumable.withoutTrial=Realm kamu dan 50+ paket marketplace akan langsung tersedia. Hingga 10 pemain bisa bermain sekaligus, dan mereka bisa mengakses dunia di Realm kamu secara gratis! Langgananmu akan tersedia selama 30 hari dengan harga %s.	#
 
 store.realmsPlus.landing.header=Langganan Mencakup:	#
 
@@ -6497,8 +6511,8 @@ store.realmsPlus.faq.question2=Apakah paket Realms Plus saya bisa digunakan saat
 store.realmsPlus.faq.answer2=Kamu tidak harus online untuk menikmati Realms Plus. Paket yang disertakan dalam langganan bisa dimainkan online di Realm pribadimu atau dimainkan di perangkat lokal. Kamu hanya perlu online setiap 30 hari untuk memvalidasi bahwa langgananmu aktif.	#
 store.realmsPlus.faq.question3=Apakah teman saya harus punya Realms Plus untuk bermain di Realm saya?	#
 store.realmsPlus.faq.answer3=Temanmu tidak perlu langganan Realms Plus untuk bergabung ke Realm. Kamu bisa mengundang teman yang bisa mengakses Realms untuk bergabung ke Realm kamu secara gratis.	#
-store.realmsPlus.faq.question4=Apakah saya bisa meng-hosting dunia, paket tekstur, skin, dan perpaduan Realms Plus di Realm saya?	#
-store.realmsPlus.faq.answer4=Ya! Kamu bisa mengunggah dunia, paket tekstur, skin, dan perpaduan apa pun dari katalog Realms Plus atau pembelian dari Marketplace Minecraft ke Realm milikmu dan mengundang teman untuk bergabung secara gratis.	#
+store.realmsPlus.faq.question4=Apakah saya bisa meng-hosting dunia, paket tekstur, dan perpaduan Realms Plus di Realm saya?	#
+store.realmsPlus.faq.answer4=Ya! Kamu bisa mengunggah dunia, paket tekstur, dan perpaduan apa pun dari katalog Realms Plus atau pembelian dari Marketplace Minecraft ke Realm milikmu dan mengundang teman untuk bergabung secara gratis.	#
 store.realmsPlus.faq.question5=Berapa biaya langganan Realms Plus?	#
 store.realmsPlus.faq.answer5=%s per bulan. Harga yang sama dengan sebelum Realms berubah secara ajaib menjadi Realms Plus!	#
 store.realmsPlus.faq.question6=Seberapa sering paket baru ditambahkan ke Realms Plus?	#
@@ -6526,7 +6540,8 @@ store.realmsPlus.content.mashupDescription=Cobalah banyak hal di perpaduan!	#
 
 store.realmsPlus.content.popularPacks=Paket Populer di Realms Plus:	#
 store.realmsPlus.content.viewAllPacks=LIHAT SEMUA PAKET	#
-store.realmsPlus.content.contentDescription=Lihatlah sumber konten Minecraft yang menakjubkan! Dengan Realms Plus, kamu mendapatkan akses instan ke 50+ item marketplace seperti perpaduan, dunia, paket skin, dan petualangan epik, dengan tambahan baru setiap bulannya. Kontenmu disimpan di server pribadimu sendiri, dan bisa diakses di platform apa pun tempat kamu menggunakan Realms dan Marketplace Minecraft. Hingga 10 pemain bisa bermain sekaligus, dan mereka bisa mengakses semua konten pelanggan di Realm kamu – gratis!	#
+store.realmsPlus.content.contentDescription=Lihatlah sumber konten Minecraft yang menakjubkan! Dengan Realms Plus, kamu mendapatkan akses instan ke 50+ item marketplace seperti perpaduan, dunia, paket skin, dan petualangan epik, dengan tambahan baru setiap bulannya. Kontenmu disimpan di server pribadimu sendiri, dan bisa diakses di platform apa pun tempat kamu menggunakan Realms dan Marketplace Minecraft. Hingga 10 pemain bisa bermain sekaligus, dan mereka bisa mengakses dunia di Realm kamu secara gratis!	#
+
 
 store.realmsPlus.freeTrial=MULAI UJI COBA GRATIS 1 BULAN	#
 
@@ -8014,11 +8029,12 @@ manifestvalidation.delete.confirm_title=Hapus Paket?	#
 manifestvalidation.delete.confirm_body=Kamu akan menghapus paket sumber daya/perilaku ini selamanya. Kamu yakin?	#
 manifestvalidation.delete.confirm_delete=Hapus	#
 manifestvalidation.delete.confirm_goBack=Kembali	#
-manifestvalidation.packid=ID Paket: %s	#
-manifestvalidation.packversion=Versi Paket: %s	#
-manifestvalidation.filelocation=Lokasi File: %s	#
-manifestvalidation.file=File: %s	#
-manifestvalidation.issue=Masalah: %s	#
+manifestvalidation.packid=ID Paket:	#
+manifestvalidation.packversion=Versi Paket:	#
+manifestvalidation.filelocation=Lokasi File:	#
+manifestvalidation.errorlist=Daftar Kesalahan	#
+manifestvalidation.file=File:	#
+manifestvalidation.issue=Masalah:	#
 manifestvalidation.unkown.packtype=Jenis Paket Tidak Diketahui	#
 manifestvalidation.unkown.packtitle=Nama Paket Tidak Diketahui	#
 manifestvalidation.unkown.packdescription=Deskripsi Paket Tidak Diketahui	#

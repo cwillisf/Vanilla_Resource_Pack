@@ -1720,6 +1720,12 @@ realmsCreateScreen.playNowMessage2=Sinon, vous pouvez le trouver à tout moment 
 realmsCreateScreen.playWithFriends=Jouer entre amis	#
 realmsCreateScreen.playSolo=Jouer en solo	#
 realmsCreateScreen.goBack=Retour au magasin	#
+realmsCreateScreen.purchaseConfirmation.title=Acheter Realm?	#
+realmsCreateScreen.purchaseConfirmation.create.message=Voulez-vous vraiment créer un Realm?	#
+realmsCreateScreen.purchaseConfirmation.extend.message=Voulez-vous vraiment étendre un Realm?	#
+realmsCreateScreen.purchaseConfirmation.renew.message=Voulez-vous vraiment renouveler un Realm?	#
+realmsCreateScreen.purchaseConfirmation.continue=Confirmer l'achat	#
+realmsCreateScreen.purchaseConfirmation.cancel=Annuler	#
 
 realmsCreateScreen.title=Créer un Realm	#
 realmsCreateScreen.nameHeader=Nom du Realm	#
@@ -2205,6 +2211,7 @@ edu.worlds_screen.search_placeholder=Rechercher	#
 edu.worlds_screen.play=JOUER	#
 edu.worlds_screen.host=HÉBERGER	#
 edu.worlds_screen.settings=PARAMÈTRES	#
+edu.worlds_screen.courses_title=Mes cours	#
 
 edu.templates.title=Mes modèles	#
 edu.templates.local_header=MES MODÈLES : %1	#
@@ -2501,7 +2508,7 @@ gameTip.jumpForward.controller=Poussez sur :tip_left_stick: et appuyez sur :_inp
 gameTip.findTree=Trouvez un arbre pour ramasser du bois.	#
 gameTip.breakWood.mouse=Maintenez :_input_key.attack: pour casser du bois.	#
 gameTip.breakWood.touch=Touchez en maintenant votre doigt pour casser du bois.	#
-gameTip.breakWood.controller=Maintenez :_input_key.attack: vers le bas pour casser du bois.	#
+gameTip.breakWood.controller=Maintenez :_input_key.attack: pour casser du bois.	#
 gameTip.openInventory.keyboard=Appuyez sur :_input_key.inventory: pour ouvrir votre inventaire.	#
 gameTip.openInventory.touch=Touchez le bouton :tip_touch_inventory: pour ouvrir votre inventaire.	#
 gameTip.openInventory.controller=Appuyez sur :_input_key.inventory: pour ouvrir votre inventaire.	#
@@ -6476,8 +6483,15 @@ store.realmsPlus.buyNow.viewPrivacyPolicy=Politique de confidentialité	#
 
 store.realmsPlus.buyNow.title=Commencer votre abonnement Realms Plus	#
 store.realmsPlus.startTrial.title=Commencez dès maintenant votre essai GRATUIT de 30 jours!	#
-store.realmsPlus.startTrial.description=Votre Realm et plus de 50 packs du marché seront immédiatement disponibles. Jusqu’à 10 joueurs peuvent jouer en même temps, et ils ont gratuitement accès à tout le contenu d’abonné dans votre Realm! Votre premier mois sera gratuit, puis vous serez facturé %s/mois par la suite. Vous pouvez annuler à tout moment.	#
+store.realmsPlus.startTrial.description=Votre Realm et plus de 50 packs du marché seront immédiatement disponibles. Jusqu’à 10 joueurs peuvent jouer en même temps, et ils ont gratuitement accès aux mondes de votre Realm! Votre premier mois sera gratuit, et vous serez facturé %s/mois par la suite. Vous pouvez annuler à tout moment.	#
+store.realmsPlus.noTrial.description=Votre Realm et plus de 50 packs du marché seront immédiatement disponibles. Jusqu’à 10 joueurs peuvent jouer en même temps, et ils ont gratuitement accès aux mondes de votre Realm! Votre abonnement sera valide durant 30 jours au prix de %s :minecoin:.	#
+store.realmsPlus.noTrial.description.iap=Votre Realm et plus de 50 packs du marché seront immédiatement disponibles. Jusqu’à 10 joueurs peuvent jouer en même temps, et ils ont gratuitement accès aux mondes de votre Realm! Votre abonnement sera valide durant 30 jours au prix de %s.	#
 store.realmsPlus.realmName.placeholder=Realm de %s		#The string passed in here is the gamertag of the player to indicate the name of the player's world.	#
+
+store.realmsPlus.recurring.offerTrial=Votre Realm et plus de 50 packs du marché seront immédiatement disponibles. Jusqu’à 10 joueurs peuvent jouer en même temps, et ils ont gratuitement accès aux mondes de votre Realm! Votre premier mois sera gratuit, puis vous serez facturé %s/mois par la suite. Vous pouvez annuler à tout moment.	#
+store.realmsPlus.recurring.withoutTrial=Votre Realm et plus de 50 packs du marché seront immédiatement disponibles. Jusqu’à 10 joueurs peuvent jouer en même temps, et ils ont gratuitement accès aux mondes de votre Realm! Vous serez facturé %s/mois. Vous pouvez annuler à tout moment.	#
+store.realmsPlus.consumable.offerTrial=Votre Realm et plus de 50 packs du marché seront immédiatement disponibles. Jusqu’à 10 joueurs peuvent jouer en même temps, et ils ont gratuitement accès aux mondes de votre Realm! Les 30 premiers jours seront gratuits et vous pouvez renouveler pour 30 jours au prix de %s.	#
+store.realmsPlus.consumable.withoutTrial=Votre Realm et plus de 50 packs du marché seront immédiatement disponibles. Jusqu’à 10 joueurs peuvent jouer en même temps, et ils ont gratuitement accès aux mondes de votre Realm! Votre abonnement sera valide durant 30 jours au prix de %s.	#
 
 store.realmsPlus.landing.header=L'abonnement comprend :	#
 
@@ -6497,8 +6511,8 @@ store.realmsPlus.faq.question2=Puis-je utiliser mes packs Realms Plus hors-ligne
 store.realmsPlus.faq.answer2=Vous n’avez pas besoin d’être en ligne pour profiter de Realms Plus. Les packs compris dans l’abonnement peuvent être utilisés en ligne sur votre Realm personnel ou en local sur votre appareil. Vous avez seulement besoin de vous connecter tous les 30 jours pour confirmer que votre abonnement est actif.	#
 store.realmsPlus.faq.question3=Mes amis ont-ils besoin de Realms Plus pour jouer sur mon Realm?	#
 store.realmsPlus.faq.answer3=Vos amis n’ont pas besoin d’un abonnement à Realms Plus pour rejoindre un Realm. Vous pouvez inviter tout ami qui a accès aux Realms à rejoindre votre Realm gratuitement.	#
-store.realmsPlus.faq.question4=Puis-je héberger mes mondes, mes packs de textures, mes packs de skins et mes mash-ups Realms Plus sur mon Realm?	#
-store.realmsPlus.faq.answer4=Oui! Vous pouvez charger n’importe quel monde, pack de textures, pack de skins et mash-ups du catalogue Realms Plus ou vos achats du marché Minecraft dans votre Realm et inviter vos amis à vous rejoindre gratuitement.	#
+store.realmsPlus.faq.question4=Puis-je héberger mes mondes, mes packs de textures et mes mash-ups Realms Plus sur mon Realm?	#
+store.realmsPlus.faq.answer4=Oui! Vous pouvez télécharger n’importe quel monde, pack de textures et mash-up du catalogue Realms Plus ou vos achats du marché Minecraft dans votre Realm, et inviter vos amis à vous rejoindre gratuitement.	#
 store.realmsPlus.faq.question5=Combien coûte un abonnement à Realms Plus?	#
 store.realmsPlus.faq.answer5=%s par mois. C'est le même prix qu'avant la transformation magique des Realms en Realms Plus!	#
 store.realmsPlus.faq.question6=À quelle fréquence de nouveaux packs sont-ils ajoutés à Realms Plus?	#
@@ -6526,7 +6540,8 @@ store.realmsPlus.content.mashupDescription=Essayez un peu de tout avec les mash-
 
 store.realmsPlus.content.popularPacks=Packs populaires dans Realms Plus :	#
 store.realmsPlus.content.viewAllPacks=VOIR TOUS LES PACKS	#
-store.realmsPlus.content.contentDescription=Puisez dans la source de contenu incroyable de Minecraft! Avec Realms Plus, vous obtenez un accès instantané à plus de 50 objets du marché comme des mash-ups, des mondes, des packs de skins et des aventures épiques, avec de nouveaux ajouts chaque mois. Votre contenu est stocké sur votre serveur personnel, et il est mis à votre disposition sur n’importe quelle plateforme sur laquelle vous profitez des Realms et du marché Minecraft. Jusqu’à 10 joueurs peuvent jouer en même temps, et ils ont accès gratuitement à tout le contenu d’abonné de votre Realm!	#
+store.realmsPlus.content.contentDescription=Puisez dans la source de contenu incroyable de Minecraft! Avec Realms Plus, vous obtenez un accès instantané à plus de 50 objets du marché comme des mash-ups, des mondes, des packs de skins et des aventures épiques, avec de nouveaux ajouts chaque mois. Votre contenu est stocké sur votre serveur personnel, et il est mis à votre disposition sur n’importe quelle plateforme sur laquelle vous profitez des Realms et du marché Minecraft. Jusqu’à 10 joueurs peuvent jouer en même temps, et ils ont accès gratuitement aux mondes de votre Realm!	#
+
 
 store.realmsPlus.freeTrial=COMMENCER 1 MOIS D'ESSAI GRATUIT	#
 
@@ -8014,11 +8029,12 @@ manifestvalidation.delete.confirm_title=Supprimer le pack ?	#
 manifestvalidation.delete.confirm_body=Vous allez supprimer définitivement cette ressource ou ce comportement. Confirmer ?	#
 manifestvalidation.delete.confirm_delete=Supprimer	#
 manifestvalidation.delete.confirm_goBack=Revenir	#
-manifestvalidation.packid=ID du pack : %s	#
-manifestvalidation.packversion=Version du pack : %s	#
-manifestvalidation.filelocation=Emplacement du fichier : %s	#
-manifestvalidation.file=Fichier : %s	#
-manifestvalidation.issue=Problème : %s	#
+manifestvalidation.packid=ID du pack :	#
+manifestvalidation.packversion=Version du pack :	#
+manifestvalidation.filelocation=Emplacement du fichier :	#
+manifestvalidation.errorlist=Liste d’erreurs	#
+manifestvalidation.file=Fichier :	#
+manifestvalidation.issue=Problème :	#
 manifestvalidation.unkown.packtype=Type de pack inconnu	#
 manifestvalidation.unkown.packtitle=Nom du pack inconnu	#
 manifestvalidation.unkown.packdescription=Description du pack inconnue	#

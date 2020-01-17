@@ -1720,6 +1720,12 @@ realmsCreateScreen.playNowMessage2=A lehetőséget bármikor megtalálod a ját�
 realmsCreateScreen.playWithFriends=Játék a barátaiddal	#
 realmsCreateScreen.playSolo=Játék egyedül	#
 realmsCreateScreen.goBack=Vissza az Áruházba	#
+realmsCreateScreen.purchaseConfirmation.title=Megvásárolod a Realmet?	#
+realmsCreateScreen.purchaseConfirmation.create.message=Biztosan szeretnél létrehozni egy Realmet?	#
+realmsCreateScreen.purchaseConfirmation.extend.message=Biztosan szeretnél kiterjeszteni egy Realmet?	#
+realmsCreateScreen.purchaseConfirmation.renew.message=Biztosan szeretnél megújítani egy Realmet?	#
+realmsCreateScreen.purchaseConfirmation.continue=Vásárlás megerősítése	#
+realmsCreateScreen.purchaseConfirmation.cancel=Mégse	#
 
 realmsCreateScreen.title=Realm létrehozása	#
 realmsCreateScreen.nameHeader=Realm neve	#
@@ -1931,7 +1937,7 @@ xblLogin.LoginMessage=Csatlakozás…	#
 xbl.savePurchase.description.line1=Szeretnél minden tartalommal játszani, amit bármely Minecraft Áruház támogatással rendelkező rendszeren megvásároltál? Jelentkezz be ingyenes Microsoft-fiókkal, és szinkronizáld vásárolt felületeidet, textúráidat, térképeidet és mixeidet, hogy játszhass velük a Minecraftban!	#
 xbl.savePurchase.description.line2=Ha rendszerhibából adódóan telepítésed elvész vagy törlöd a Minecraftot, vásárlásaid megmaradnak és szinkronizálhatóak lesznek bármely rendszeren Microsoft-fiókod használatával.	#
 xbl.savePurchase.leaveOnDevice=Az eszközön marad	#
-xbl.savePurchase.title=Mented a vásárlásaidat a Microsoft-fiókodba?	#
+xbl.savePurchase.title=Mented a vásárlásaidat Microsoft-fiókodba?	#
 xbl.savePurchase.saveButton=Mentés Microsoft-fiókba	#
 xbl.savePurchase.toast.title=Sikerült!	#
 xbl.savePurchase.toast.message=A vásárlások szinkronizálva a Microsoft-fiókba!	#
@@ -2205,6 +2211,7 @@ edu.worlds_screen.search_placeholder=Keresés	#
 edu.worlds_screen.play=JÁTÉK	#
 edu.worlds_screen.host=JÁTÉKGAZDA	#
 edu.worlds_screen.settings=BEÁLLÍTÁSOK	#
+edu.worlds_screen.courses_title=Tanfolyamaim	#
 
 edu.templates.title=Saját sablonok	#
 edu.templates.local_header=SAJÁT SABLONOK: %1	#
@@ -6476,8 +6483,15 @@ store.realmsPlus.buyNow.viewPrivacyPolicy=ADATVÉDELMI IRÁNYELVEK	#
 
 store.realmsPlus.buyNow.title=Realms Plus-előfizetés indítása	#
 store.realmsPlus.startTrial.title=Kezdd el a 30 napos INGYENES próbát!	#
-store.realmsPlus.startTrial.description=Realmedhez és a több mint 50 piactéri csomaghoz azonnal hozzáférhetsz. Akár 10 játékos is játszhat egyszerre, és mindannyian hozzáférhetnek a Realmed előfizetői tartalmaihoz – ingyen! Az első hónapod ingyenes lesz, azt követően pedig havi %s az ára, és bármikor lemondható.	#
+store.realmsPlus.startTrial.description=Realmedhez és a több mint 50 piactéri csomaghoz azonnal hozzáférhetsz. Akár 10 játékos is játszhat egyszerre, és mindannyian ingyen hozzáférhetnek a Realmed világaihoz! Az első hónapod ingyenes lesz, azt követően pedig havi %s az ára, és bármikor lemondható.	#
+store.realmsPlus.noTrial.description=Realmedhez és a több mint 50 piactéri csomaghoz azonnal hozzáférhetsz. Akár 10 játékos is játszhat egyszerre, és mindannyian ingyen hozzáférhetnek a Realmed világaihoz! Az előfizetés 30 napig lesz elérhető %s:minecoin: díj ellenében.	#
+store.realmsPlus.noTrial.description.iap=Realmedhez és a több mint 50 piactéri csomaghoz azonnal hozzáférhetsz. Akár 10 játékos is játszhat egyszerre, és mindannyian ingyen hozzáférhetnek a Realmed világaihoz! Az előfizetés 30 napig lesz elérhető %s díj ellenében.	#
 store.realmsPlus.realmName.placeholder=%s Realmje		#The string passed in here is the gamertag of the player to indicate the name of the player's world.	#
+
+store.realmsPlus.recurring.offerTrial=Realmedhez és a több mint 50 piactéri csomaghoz azonnal hozzáférhetsz. Akár 10 játékos is játszhat egyszerre, és mindannyian ingyen hozzáférhetnek a Realmed világaihoz! Az első hónapod ingyenes lesz, azt követően pedig havi %s az ára, és bármikor lemondható.	#
+store.realmsPlus.recurring.withoutTrial=Realmedhez és a több mint 50 piactéri csomaghoz azonnal hozzáférhetsz. Akár 10 játékos is játszhat egyszerre, és mindannyian ingyen hozzáférhetnek a Realmed világaihoz! Havonta %s kerül számlázásra, és bármikor lemondható.	#
+store.realmsPlus.consumable.offerTrial=Realmedhez és a több mint 50 piactéri csomaghoz azonnal hozzáférhetsz. Akár 10 játékos is játszhat egyszerre, és mindannyian ingyen hozzáférhetnek a Realmed világaihoz! Az első 30 napod ingyenes lesz, azt követően pedig 30 naponta %s összegért újítható meg.	#
+store.realmsPlus.consumable.withoutTrial=Realmedhez és a több mint 50 piactéri csomaghoz azonnal hozzáférhetsz. Akár 10 játékos is játszhat egyszerre, és mindannyian ingyen hozzáférhetnek a Realmed világaihoz! Az előfizetés 30 napig lesz elérhető %s díj ellenében.	#
 
 store.realmsPlus.landing.header=Az előfizetés tartalma:	#
 
@@ -6497,8 +6511,8 @@ store.realmsPlus.faq.question2=Használhatom Realms Plus csomagjaimat offline?	#
 store.realmsPlus.faq.answer2=A Realms Plus csomagok használatához nem szükséges internetelérés. Az előfizetésedhez kapott csomagokkal játszhatsz online saját Realmeden vagy bármely helyi eszközön. 30 naponként csak egyszer kell fellépned a hálóra, hogy lássuk: az előfizetésed még aktív.	#
 store.realmsPlus.faq.question3=Barátaimnak is kell Realms Plus előfizetés, hogy a Realmemen játszhassanak?	#
 store.realmsPlus.faq.answer3=A Realmhoz való csatlakozáshoz barátaidnak nincs szüksége Realms Plus előfizetésre. Bármelyik Realm hozzáféréssel rendelkező barátodat meghívhatod, és ingyen játszhat a Realmen.	#
-store.realmsPlus.faq.question4=Futtathatom Realms Plus világaimat, textúracsomagjaimat, felületeimet és mixeimet Realmemen?	#
-store.realmsPlus.faq.answer4=Igen! Bármelyik világot, textúracsomagot, felületet és mixet feltöltheted a Realms Plus katalógusból vagy a Minecraft Áruházból Realmedbe, és meghívhatod a barátaidat, akik ingyen csatlakozhatnak.	#
+store.realmsPlus.faq.question4=Futtathatom Realms Plus világaimat, textúracsomagjaimat és mixeimet Realmemen?	#
+store.realmsPlus.faq.answer4=Igen! Bármelyik világot, textúracsomagot és mixet feltöltheted a Realms Plus katalógusból vagy a Minecraft Piactérről Realmedbe, és meghívhatod a barátaidat, akik ingyen csatlakozhatnak.	#
 store.realmsPlus.faq.question5=Mennyibe kerül a Realms Plus előfizetés?	#
 store.realmsPlus.faq.answer5=Havonta %s az ára. Ugyanennyibe került azelőtt is, hogy a Realms varázsütésre Realms Plusszá változott.	#
 store.realmsPlus.faq.question6=Milyen gyakran bővül új csomagokkal a Realms Plus?	#
@@ -6526,7 +6540,8 @@ store.realmsPlus.content.mashupDescription=A mixekkel kipróbálhatsz mindenből
 
 store.realmsPlus.content.popularPacks=Népszerű csomagok a Realms Plus részeként:	#
 store.realmsPlus.content.viewAllPacks=AZ ÖSSZES CSOMAG MEGTEKINTÉSE	#
-store.realmsPlus.content.contentDescription=Tégy szert lenyűgöző Minecraft-tartalmakra! A Realms Plus azonnali hozzáférést biztosít több mint 50 piactéri tételhez: mixekhez, világokhoz, felületcsomagokhoz, epikus kalandokhoz – és a kínálat havonta bővül. Tartalmaid személyes kiszolgálódon találhatók, és bármely Minecraft Piactérrel és Realmekkel kompatibilis platformról elérhetők. Akár 10 játékos is játszhat egyszerre, és mindannyian hozzáférhetnek a Realmed előfizetői tartalmaihoz – ingyen!	#
+store.realmsPlus.content.contentDescription=Tégy szert lenyűgöző Minecraft-tartalmakra! A Realms Plus azonnali hozzáférést biztosít több mint 50 piactéri tételhez: mixekhez, világokhoz, felületcsomagokhoz, epikus kalandokhoz – és a kínálat havonta bővül. Tartalmaid személyes kiszolgálódon találhatók, és bármely Minecraft Piactérrel és Realmekkel kompatibilis platformról elérhetők. Akár 10 játékos is játszhat egyszerre, és mindannyian ingyen hozzáférhetnek a Realmed világaihoz!	#
+
 
 store.realmsPlus.freeTrial=1 HÓNAP INGYENES PRÓBAIDŐSZAK INDÍTÁSA	#
 
@@ -8014,11 +8029,12 @@ manifestvalidation.delete.confirm_title=Törlöd a csomagot?	#
 manifestvalidation.delete.confirm_body=Az erőforrás- vagy viselkedéscsomag végleges törlésére készülsz. Biztos vagy ebben?	#
 manifestvalidation.delete.confirm_delete=Törlés	#
 manifestvalidation.delete.confirm_goBack=Visszalépés	#
-manifestvalidation.packid=Csomag azonosítója: %s	#
-manifestvalidation.packversion=Csomag verziója: %s	#
-manifestvalidation.filelocation=Fájl helye: %s	#
-manifestvalidation.file=Fájl: %s	#
-manifestvalidation.issue=Probléma: %s	#
+manifestvalidation.packid=Csomagazonosító:	#
+manifestvalidation.packversion=Csomagverzió:	#
+manifestvalidation.filelocation=Állomány helye:	#
+manifestvalidation.errorlist=Hibalista	#
+manifestvalidation.file=Állomány:	#
+manifestvalidation.issue=Probléma:	#
 manifestvalidation.unkown.packtype=Ismeretlen csomagtípus	#
 manifestvalidation.unkown.packtitle=Ismeretlen csomagnév	#
 manifestvalidation.unkown.packdescription=Ismeretlen csomagleírás	#
